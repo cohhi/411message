@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工具区</title>
+</head>
+<style type="text/css">
+    button {
+        --glow-color: rgb(217, 176, 255);
+        --glow-spread-color: rgba(191, 123, 255, 0.781);
+        --enhanced-glow-color: rgb(231, 206, 255);
+        --btn-color: rgb(100, 61, 136);
+        border: .25em solid var(--glow-color);
+        padding: 1em 3em;
+        color: var(--glow-color);
+        font-size: 15px;
+        font-weight: bold;
+        background-color: var(--btn-color);
+        border-radius: 1em;
+        outline: none;
+        box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+        text-shadow: 0 0 .5em var(--glow-color);
+        position: relative;
+        transition: all 0.3s;
+    }
+
+    button::after {
+        pointer-events: none;
+        content: "";
+        position: absolute;
+        top: 120%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--glow-spread-color);
+        filter: blur(2em);
+        opacity: .7;
+        transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+    }
+
+    button:hover {
+        color: var(--btn-color);
+        background-color: var(--glow-color);
+        box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+    }
+
+    button:active {
+        box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+    }
+    body{
+        background: #303030;
+    }
+    #one{
+
+    }
+</style>
+<body>
+<script>
+    function messageOne(){
+        alert("你~干~嘛!!! ~哈哈~~哎呦");
+        alert("我可是ikun,不许黑我们家鸡哥");
+    }
+
+</script>
+<!--<div style="width: 17px; height: 17px; text-align: center; background: #5393E9; border-radius: 30px">-->
+<!--    <button>JetBrains:</button><button>Java</button>-->
+<!--</div>-->
+<div  id="one">
+    <a href="https://jetbrains.com"><button style="width: 150px;height: 150px">JetBrains:</button></a>
+    <a href="https://www.jetbrains.com/idea/download/#section=windows"><button>IDEA</button></a>
+    <a href="https://www.jetbrains.com/pycharm/download/#section=windows"><button>Pycharm</button></a>
+    <a href="https://www.jetbrains.com/webstorm/download/#section=windows"><button>WebStorm</button></a>
+</div>
+<div>
+    <br><br><br>
+    <a href="https://linux.org"><button style="width: 150px;height: 150px">Linux:</button></a>
+    <a href="https://ubuntu.org"><button>Ubuntu</button></a>
+    <a href="https://xubuntu.com"><button>xubuntu</button></a>
+    <a href="https://kubuntu.com"><button>kubuntu</button></a>
+    <a href="https://wiki.centos.org"><button>CentOs</button></a>
+    <a href="https://www.kali.org"><button>Kali</button></a>
+    <br><br><br>
+    <button style="width: 150px; height: 150px">常用小工具</button>
+    <button>Apache</button>
+    <button>VM-ware</button>
+    <button>natapp</button>
+    <button  onclick="messageOne()">ikun</button>
+    <br><br><br>
+    <button style="width: 150px; height: 150px">Vpn
+        <a href="https://aoxvpn.cc/"><button>小牛 Vpn</button></a>
+        <a href="https://kb.adguard.com"><button>AdGuard Vpn</button></a>
+        <a href=""><button>Go Vpn</button></a>
+        <a href=""><button>Nova Vpn</button></a>
+        <a href=""><button>小羽 Vpn</button></a>
+    </button>
+</div>
+</body>
+</html>

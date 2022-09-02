@@ -1,0 +1,462 @@
+<!doctype>
+<html lang="zh" xmlns="">
+<head>
+    <link href="picture/411.jpg" style="width: 200px;height: 200px">
+    <title>411主页 for chinese</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+</head>
+
+<style type="text/css">
+    .cssbuttons-io-button {
+        background: #A370F0;
+        color: white;
+        font-family: inherit;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 1.6em -0.6em #714da6;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding: 0.35em 3.3em 0.35em 1.2em;
+    }
+
+    .cssbuttons-io-button .icon {
+        background: white;
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+        right: 0.3em;
+        transition: all 0.3s;
+    }
+
+    .cssbuttons-io-button:hover .icon {
+        width: calc(100% - 0.6em);
+    }
+
+    .cssbuttons-io-button .icon svg {
+        width: 1.1em;
+        transition: transform 0.3s;
+        color: #7b52b9;
+    }
+
+    .cssbuttons-io-button:hover .icon svg {
+        transform: translateX(0.1em);
+    }
+
+    .cssbuttons-io-button:active .icon {
+        transform: scale(0.95);
+    }
+    /*button{*/
+    /*    background-image: linear-gradient(to left,#A8C1EF,#F6C1EB);*/
+    /*    width: 330px;*/
+    /*    height: 35px;*/
+    /*    text-align: right;*/
+    /*    border-radius: 30px;*/
+    /*}*/
+    /*button:hover{*/
+
+    /*}*/
+    button {
+        text-decoration: none;
+        position: absolute;
+        border: none;
+        font-size: 14px;
+        font-family: inherit;
+        color: #fff;
+        /*width: 9em;*/
+        /*height: 3em;*/
+        line-height: 2em;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size: 300%;
+        border-radius: 30px;
+        z-index: 1;
+    }
+
+    button:hover {
+        animation: ani 8s linear infinite;
+        border: none;
+    }
+
+    @keyframes ani {
+        0% {
+            background-position: 0;
+        }
+
+        100% {
+            background-position: 400%;
+        }
+    }
+
+    button:before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        z-index: -1;
+        background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size: 400%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+    button:hover::before {
+        filter: blur(20px);
+    }
+
+    button:active {
+        background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    }
+    p{
+        width: 240px;
+        height: 90px;
+        font-size: 50px;
+        text-align: center;
+        background-color: red;
+        color: aliceblue;
+        margin: auto;
+        transition: 0.8s;
+    }
+    p:hover{
+        width: 240px;
+        height: 90px;
+        font-size: 50px;
+        border-radius: 30px;
+        border: 4px solid purple;
+    }
+    h4{
+        text-align: center;
+    }
+    h5{
+        text-align: right;
+        font-size: 23px;
+        background-image: linear-gradient(to left,#96B97D,#5F3B83);
+        border-radius: 30px;
+        border: 3px;
+        solid-color: #01DADF;
+        color: #8c888b;
+        -moz-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+        -ms-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+        -webkit-background-clip: text;
+
+
+        animation: ran 20s linear infinite;
+    }
+
+    #one{
+        border-radius: 30px;
+        border: 3px solid blueviolet;
+    }
+    #two{
+        text-align: center;
+    }
+    #three{
+        color: #E03E87;
+        text-align: center;
+    }
+    body{
+        background-image: linear-gradient(125deg,#96B97D,#EB2C89);
+        width: auto;
+        height: auto;
+    }img{
+        text-align: center;
+        width: 1080px;
+        height: auto;
+         }
+    select{
+        background: #9BAF7E;
+    }
+
+    box {
+        position: relative;
+        width: 220px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    .box::before {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 50px;
+        width: 50%;
+        height: 100%;
+        text-decoration: none;
+        background: #fff;
+        border-radius: 8px;
+        transform: skewX(15deg);
+        transition: 0.5s;
+    }
+
+    .box::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50px;
+        width: 50%;
+        height: 100%;
+        background: #fff;
+        border-radius: 8px;
+        transform: skewX(15deg);
+        transition: 0.5s;
+        filter: blur(30px);
+    }
+
+    .box:hover:before,
+    .box:hover:after {
+        transform: skewX(0deg) scaleX(1.3);
+    }
+
+    .box:before,
+    .box:after {
+        background: linear-gradient(315deg, #ffbc00, #ff0058)
+    }
+
+    .box span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 5;
+        pointer-events: none;
+    }
+
+    .box span::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        transition: 0.1s;
+        animation: animate 2s ease-in-out infinite;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08)
+    }
+
+    .box span::before {
+        top: -40px;
+        left: 40px;
+        width: 50px;
+        height: 50px;
+        opacity: 1;
+    }
+
+    .box span::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        transition: 0.5s;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        animation-delay: -1s;
+    }
+
+    .box span:after {
+        bottom: -40px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+        opacity: 1;
+    }
+
+    .box .content {
+        position: relative;
+        width: 190px;
+        height: 254px;
+        padding: 20px 40px;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        z-index: 1;
+        /*transform: 0.5s;*/
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box .content h2 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+</style>
+<body>
+<script>
+    function message(){
+        alert("爱你呦");
+    }
+    function nowTimes(){
+        let year,month,day,hours,minutes,second;
+        year=new Date().getFullYear();
+        month=new Date().getMonth();
+        day=new Date().getDay();
+        hours=new Date().getHours();
+        minutes=new Date().getMinutes();
+        second=new Date().getSeconds();
+        alert("当前时间UTC:   "+year+"年"+month+"月"+day+"日"+hours+":"+minutes+"分"+second+"秒");
+    }
+
+</script>
+<script type="text/javascript">
+    ! function (e, t, a) {
+        function r() {
+            for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[
+                e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x +
+                "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e]
+                    .scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+            requestAnimationFrame(r)
+        }
+
+        function n() {
+            var t = "function" == typeof e.onclick && e.onclick;
+            e.onclick = function (e) {
+                t && t(), o(e)
+            }
+        }
+
+        function o(e) {
+            var a = t.createElement("div");
+            a.className = "heart", s.push({
+                el: a,
+                x: e.clientX - 5,
+                y: e.clientY - 5,
+                scale: 1,
+                alpha: 1,
+                color: c()
+            }), t.body.appendChild(a)
+        }
+
+        function i(e) {
+            var a = t.createElement("style");
+            a.type = "text/css";
+            try {
+                a.appendChild(t.createTextNode(e))
+            } catch (t) {
+                a.styleSheet.cssText = e
+            }
+            t.getElementsByTagName("head")[0].appendChild(a)
+        }
+
+        function c() {
+            return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math
+                .random()) + ")"
+        }
+        var s = [];
+        e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e
+            .mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) { setTimeout(e, 1e3 / 60)
+        }, i(
+            ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+        ), n(), r()
+    }(window, document);
+</script>
+<!--<div class="box">-->
+<!--    <div class="container">-->
+<!--        <h2>...</h2>-->
+<!--    </div>-->
+<!--</div>-->
+<div>
+    <h1 style="font-size: 40px; text-align: center">WelCome to 411</h1>
+
+    <div style="text-align: center">
+        <button style="text-align: center">
+            <a href="index/indexLogin.html">登录 ||</a>
+            <a href="index/indexSetting.html">  设置</a>
+        </button>
+    </div>
+<!--    <h6 style="text-align: right; width: auto;height: auto"><a href="index/indexLogin.html">登录</a>-->
+<!--        &nbsp;&nbsp;|&nbsp;&nbsp;<a href="index/indexSetting.html">设置</a>-->
+<!--        &nbsp;&nbsp;|&nbsp;&nbsp;-->
+<!--            <ul>-->
+<!--                <li></li>-->
+<!--            </ul>-->
+<!--&lt;!&ndash;            <option>语言</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option><a href="indexForNumerous.html"></a>繁體</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option><a href="indexForEnglish.html"></a>English</option>&ndash;&gt;-->
+<!--&lt;!&ndash;            <option><a href="indexForJapanese.html"></a>日本語</option>&ndash;&gt;-->
+<!--        </a>-->
+<!--    </h6>-->
+    <br>
+    <button onclick="message()">么么哒</button><br><br><br>
+    <button onclick="nowTimes()">当前时间</button>
+    <h5 style="color: #F903FF">:)粉嫩少女主题限定</h5>
+    <p style="text-align: center"><em><i>Supreme</i></em></p>
+    <h4>411网站5.0全新版,更新了更嚣张的布局,更炫彩的ul。以及你知道或者不知道的网络服务。port:411</h4>
+</div>
+<hr/>
+<div id="two">
+    <h4>Enter the 411 -->></h4>
+    <a style="text-align: center" href="work/html/start.html"><img src="picture/411.jpg" alt=""></a>
+</div>
+<br>
+<div id="three">
+    <script>
+        function messageTwo(){
+            alert("爱你呦么么哒");
+        }
+    </script>
+    <button onclick="messageTwo"><h4 style="font-size: 20px">表情包区点击任意胡桃进入>>>...</h4></button>
+    <br>
+    <a href="">
+        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
+        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
+        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
+        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
+        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
+    </a>
+    <hr style="border: 50px slateblue">
+    <h6 style="text-align: center;color: #5F3B83"> ©2022~  版权所有  本站仅用于学习和培训使用，不能完全保证其内容的准确性。通过使用本站内容随之而来的风险与本站无关。</h6><br>
+    <div id="four">
+        <button><a href="index/indexOne.html"><strong>使用条款</strong></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button><a href="index/indexTwo.html"><strong>隐私条款</strong></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button><a href="index/indexThree.html"><strong>技术支持>>></strong></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button><a href="https://github.com/steam-404/411Message.git">项目地址</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button><a href="index/indexBackgroundManagement.html"><strong>后台管理</strong></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+</div>
+<div id="five">
+    <a href="index/indexMessageBoard.html">
+        <button class="cssbuttons-io-button">留言板
+            <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+            </div>
+        </button>
+    </a>
+</div>
+<div style="text-align: center">
+    <script type="text/javascript" src="index/messageOne.js">
+    </script>
+    <button onclick="messageOne()">🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀</button>     <!--当用户点击button上的篮球时弹出鸡你太美-->
+</div>
+</body>
+</html>

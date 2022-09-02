@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>留言板</title>
+    <style type="text/css">
+        *{margin:0; padding:0;}
+        body,input{font-size:14px; line-height:24px; color:#333; font-family:Microsoft yahei, Song, Arial, Helvetica, Tahoma, Geneva,serif;}
+        h1{margin-bottom:15px; height:100px; line-height:100px; text-align:center; font-size:24px; color:#fff; background-image: linear-gradient(70deg,#0CD0E0,#B93AF7);}
+        #content #post,#comment p{zoom:1;}
+        #content #post:after,#comment p:after{display:block; height:0; clear:both; visibility:hidden; overflow:hidden; content:'.';}
+        .transition{-webkit-transition:all 0.5s linear; -moz-transition:all 0.5s linear; -o-transition:all 0.5s linear; -ms-transition:all 0.5s linear; transition:all 0.5s linear;}
+        #content{margin:0 auto; width:960px; overflow:hidden;}
+        #content #post{margin-bottom:15px; padding-bottom:15px; border-bottom:1px #d4d4d4 dashed;
+            height: 556px;
+        }
+        #content #post textarea{display:block; margin-bottom:10px; padding:5px; width:948px; height:390px; border:1px #d1d1d1 solid; border-radius:5px; resize:none; outline:none;}
+        #content #post textarea:hover{border:1px #9bdf70 solid; background:#f0fbeb;}
+        #content #post #postBt,#content #post #clearBt{margin-left:5px; padding:3px; float:right;}
+        #comment{overflow:hidden;}
+        #comment p{margin-bottom:10px; padding:10px; border-radius:5px;}
+        #comment p:nth-child(odd){border:1px solid #e3e197; background:#ffd;}
+        #comment p:nth-child(even){border:1px solid #adcd3c; background:#f2fddb;}
+        /*#comment p span{display:inline; float:left;}*/
+        #comment p .right{text-align:right;}
+        #comment p .msg{width:738px;}
+        #comment p .datetime{width:200px; color:#999; text-align:right;}
+
+
+
+    </style>
+    <script type="text/javascript">
+        var named;
+        function delete1(id)
+        {
+            localStorage.removeItem(id);
+            this.Storage.writeData();
+        }
+        function prom() {
+
+            var name = prompt("请输入您的名字", "");//将输入的内容赋给变量 name ，
+            named = name;
+            //这里需要注意的是，prompt有两个参数，前面是提示的话，后面是当对话框出来后，在对话框里的默认值
+
+            if (named)//如果返回的有内容
+
+            {
+
+                alert("欢迎您：" + name)
+                document.getElementById("shangtian").style.display = "none";
+                document.getElementById("ritian").value = named;
+
+            }
+            else {
+                document.getElementById("ritian").value = "匿名发言者";
+            }
+
+        }
+        var Storage =
+            {
+                saveData:function()//保存数据
+                {
+
+                    var data = document.querySelector("#post textarea");
+                    if(data.value != "")
+                    {
+                        var time = new Date().getTime() + Math.random() * 5;//getTime是Date对象中的方法，作用是返回 1970年01月01日至今的毫秒数
+                        if (named) {
+                            localStorage.setItem(time, data.value + "|" + named + "|" + this.getDateTime());//将毫秒数存入Key值中，可以降低Key值重复率
+                        }
+                        else
+                        {
+                            localStorage.setItem(time, data.value + "|" + "匿名发言者" + "|" + this.getDateTime());//将毫秒数存入Key值中，可以降低Key值重复率
+                        }
+
+                        data.value = "";
+                        this.writeData();
+                    }
+                    else
+                    {
+                        alert("请填写您的留言！");
+                    }
+                },
+                writeData:function()//输出数据
+                {
+                    var dataHtml = "", data = "";
+                    for(var i = localStorage.length-1; i >= 0; i--)//效率更高的循环方法
+                    {
+                        data = localStorage.getItem(localStorage.key(i)).split("|");
+
+                        //dataHtml += "<p><span class=\"msg\">" + data[0] + "</span><span class=\"datetime\">" + data[1] + "</span><span>" + data[2]+"</span></p>";
+                        dataHtml += "<span style=>" + data[1] + "<span style=\"float:right\">" + data[2] + "</span><p><span class=\"msg\">" + data[0] + "<input style=\"float:right;border:none;border-radius:5px;\" id=\"clearBt\" type=\"button\" onclick=\"delete1(" + localStorage.key(i) + ");\" value=\"删除\"/>" + "</span></p>";
+                    }
+                    document.getElementById("comment").innerHTML = dataHtml;
+                },
+                clearData:function()//清空数据
+                {
+                    if(localStorage.length > 0)
+                    {
+                        if(window.confirm("清空后不可恢复，是否确认清空？"))
+                        {
+                            localStorage.clear();
+                            this.writeData();
+                        }
+                    }
+                    else
+                    {
+                        alert("没有需要清空的数据！");
+                    }
+                },
+                getDateTime:function()//获取日期时间，例如 2012-03-08 12:58:58
+                {
+                    var isZero = function(num)//私有方法，自动补零
+                    {
+                        if(num < 10)
+                        {
+                            num = "0" + num;
+                        }
+                        return num;
+                    }
+
+                    var d = new Date();
+                    return d.getFullYear() + "-" + isZero(d.getMonth() + 1) + "-" + isZero(d.getDate()) + " " + isZero(d.getHours()) + ":" + isZero(d.getMinutes()) + ":" + isZero(d.getSeconds());
+                }
+            }
+
+        window.onload = function()
+        {
+            Storage.writeData();//当打开页面的时候，先将localStorage中的数据输出一边，如果没有数据，则输出空
+            document.getElementById("postBt").onclick = function(){Storage.saveData();}//发表评论按钮添加点击事件，作用是将localStorage中的数据输出
+            document.getElementById("clearBt").onclick = function(){Storage.clearData();}//清空所有已保存的数据
+        }
+
+
+
+
+
+    </script>
+    <style>
+        button {
+            --glow-color: rgb(217, 176, 255);
+            --glow-spread-color: rgba(191, 123, 255, 0.781);
+            --enhanced-glow-color: rgb(231, 206, 255);
+            --btn-color: rgb(100, 61, 136);
+            border: .25em solid var(--glow-color);
+            padding: 1em 3em;
+            color: var(--glow-color);
+            font-size: 15px;
+            font-weight: bold;
+            background-color: var(--btn-color);
+            border-radius: 1em;
+            outline: none;
+            box-shadow: 0 0 1em .25em var(--glow-color),
+            0 0 4em 1em var(--glow-spread-color),
+            inset 0 0 .75em .25em var(--glow-color);
+            text-shadow: 0 0 .5em var(--glow-color);
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        button::after {
+            pointer-events: none;
+            content: "";
+            position: absolute;
+            top: 120%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: var(--glow-spread-color);
+            filter: blur(2em);
+            opacity: .7;
+            transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+        }
+
+        button:hover {
+            color: var(--btn-color);
+            background-color: var(--glow-color);
+            box-shadow: 0 0 1em .25em var(--glow-color),
+            0 0 4em 2em var(--glow-spread-color),
+            inset 0 0 .75em .25em var(--glow-color);
+        }
+
+        button:active {
+            box-shadow: 0 0 0.6em .25em var(--glow-color),
+            0 0 2.5em 2em var(--glow-spread-color),
+            inset 0 0 .5em .25em var(--glow-color);
+        }
+        body{
+            background: #8c888b;
+        }
+    </style>
+</head>
+<script>
+    function messageOne(){
+        alert("鸡你太美")
+    }
+</script>
+<body>
+<h1><button onclick="messageOne()">留言板</button></h1>
+
+<div id="content">
+    <div id="post">
+        <div style="background:#3EADC5 ;height:30px;">
+            UserName:<input type="submit" id="shangtian" name="Submit3" style="border:none; background-color:#3EADC5; color:white;" value="更改昵称" onclick="prom()" />
+            <input type="text" id="ritian" style="border:none; background-color:#3EADC5; color:white;"   onclick="prom()"/>
+            <!--disabled="disabled"-->
+        </div>
+        <div>
+            <textarea class="transition"></textarea>
+        </div>
+        <input id="postBt" type="button" style="border:none; background-color:#3EADC5; color:white;border-radius:5px; width:80px; height:30px;" value="发送留言"/>
+        <input id="clearBt" type="button" style="border:none; background-color:#3EADC5; color:white;border-radius:5px; width:80px; height:30px;" value="清空留言信息"/>
+    </div>
+    <div id="comment"></div>
+</div>
+</body>
+</html>

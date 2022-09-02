@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>功能大类</title>
+</head>
+<style type="text/css">
+    #one{
+        text-align: center;
+        width: auto;
+        height: 300px;
+        border-radius: 30px;
+        border: 2px solid blueviolet;
+        background-image: linear-gradient(to right,#F6736B,#934F91);
+        transition: 0.8s;
+    }#one:hover{
+        width: auto;
+        height: 350px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 3px;
+    }
+     #two{
+         text-align: center;
+         width: auto;
+         height: 300px;
+         border-radius: 30px;
+         border: 2px solid blueviolet;
+         background-image: linear-gradient(to right,#EF74B4,#FFF886);
+         transition: 0.8s;
+     }#two:hover{
+        width: auto;
+        height: 350px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 3px;
+        }
+    h2{
+        text-align: center;
+        font-size: 60px;
+        font-family: "Yu Gothic Medium";
+    }
+    #three{
+        text-align: center;
+        width: auto;
+        height: 300px;
+        border-radius: 30px;
+        border: 2px solid blueviolet;
+        background-image: linear-gradient(to right,#F903FF,#01DADF);
+        transition: 0.8s;
+    }
+    #three:hover{
+        width: auto;
+        height: 350px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 3px;
+        }
+    #four{
+        text-align: center;
+        width: auto;
+        height: 300px;
+        border-radius: 30px;
+        border: 2px solid blueviolet;
+        transition: 0.8s;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    #four:hover{
+        width: auto;
+        height: 350px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 3px;
+    }
+    #five{
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+</style>
+<body>
+    <div>
+        <div id="one">
+            <a href="startOne.html"></a>
+            <a href="startOne.html"><h2><i><strong>学习区</strong></i></h2></a>
+        </div>
+        <br>
+        <div id="two">
+            <a href="startTwo.html"><h2><i><em>工具区</em></i></h2></a>
+        </div>
+        <br>
+        <div id="three">
+            <a href="startThree.html"><h2><i><em>娱乐区</em></i></h2></a>
+        </div>
+        <br>
+        <div id="four">
+            <h2 style="font-size: 30px">问题大全（解决你的所有问题）</h2>
+            <script>
+                var num=1;
+                function message(){
+                    var message=document.getElementById("in").value;
+                    if(num<3){
+                        alert("oh 小宝贝我还没做好呢,不要乱输东西哟!");
+                    }
+                    else if(num>=3){
+                        alert("都说了不要乱输，你想被掘?")
+                    }else if(num>=5){
+                        alert("再输封你IP")
+                    }else {
+                        alert("null")
+                    }
+                }
+            </script>
+            <input style="width: 200px; box-shadow: 6px 6px 2px; height: 30px" type="text" id="in" value=""/>
+            <button onclick="message()" style="width: 60px;height: 35px;background-color: blueviolet">查找</button>
+            <p>暂时还没做好</p>
+        </div>
+    </div>
+<div id="five">
+    <a href="Start-python.html">python接口</a>
+</div>
+</body>
+</html>
