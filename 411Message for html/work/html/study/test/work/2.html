@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9月6日</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+<body>
+<div>
+    <div id="center">
+        <div>
+            <h3>上节课代码优化</h3>
+            <div class="java">
+                import java.util.InputMismatchException;<br>
+                import java.util.Scanner;<br>
+                /*<br>
+                author:steam-404<br>
+                */<br>
+                public class Main{<br>
+                &nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner input = new Scanner(System.in);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("请输入三组数字");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num1, num2, num3;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num1= input.nextDouble();<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num2= input.nextDouble();<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num3= input.nextDouble();<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num1>=1&&num2>=1&&num3>=1){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(triangle(num1,num2,num3));<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else if(num1<=0||num2<=0||num3<=0){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("请勿输入0和负数");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("请重新输入");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}catch (InputMismatchException e){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("数据类型有误");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static String triangle(double num1,double num2,double num3){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String result;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num1+num2>num3||num1+num3>num2||num3+num2>num1){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (num1+num2==num3||num1+num3==num2||num2+num3==num1){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="不能组成三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else if(num1==num2&&num2==num3){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="等边三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else if(num1==num2||num2==num3||num1==num3){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="等腰三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else if ((num1*num1)+(num2*num2)==num3*num3||(num1*num1)+(num3*num3)==num2*num2||(num2*num2)+(num3*num3)==num1*num1) {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="直角三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="不规则三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result="不能组成三角形";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;return result;<br>
+                &nbsp;&nbsp;&nbsp;}<br>
+                }<br>
+                <script>
+                    function message1(){
+
+                    }
+                </script>
+        </div>
+    </div>
+</div>>
+    <div>
+        <a href="1.html"><button>上一页</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="3.html"><button>下一页</button></a>
+    </div>
+</div>
+</body>
+</html>

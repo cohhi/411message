@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>软件测试</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+<style>
+    #one{
+        padding: 30px;
+        margin: 50px;
+        background: #EFE5A7;
+    }
+    #two{
+        text-align: left;
+        padding: 12px;
+        margin: 30px;
+        background: tan;
+    }
+</style>
+<body>
+<div id="center">
+  <div>
+    <h3>软件的错误<br>
+        案例1
+    </h3>
+    <h3>在word中输出如&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=rand(200,99)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按下回车会出现几百页的内容</h3>
+    <h3>案例2<br>
+        在html同时写入两个input 类型分别为 text 和 color
+    </h3>
+      <img src="picture/2.png" alt="">
+      <h3>此时点击color上的吸管</h3>
+      <img src="picture/1.png" alt="">
+      <h3>此时鼠标定位text中无法切换中文输入法,即使能切换也无法输入中文</h3>
+      <div id="one">
+          <label>
+              <input type="text">
+          </label>
+          <label>
+              <input type="color">
+          </label>
+      </div>
+      <br>
+      <div id="two">
+          <h3>作业:编写程序</h3>
+          <h3>从一个输入框中读取三个数<br>
+              这三个数分别表示三角形的边长<br>
+              判断能不能组成三角形<br>
+              如果能的话判断是等腰三角形还是等边三角形
+          </h3>
+          <br>
+          <h3>
+              import java.util.Scanner;<br>
+              /*<br>
+              author:steam-404<br>
+              */<br>
+              public class Main {<br>
+              &nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断三角形<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//输入三个数字,判断是否能组成三角形<br>
+
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner input=new Scanner(System.in);<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("请输入三个数");<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num1=input.nextDouble();<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num2=input.nextDouble();<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num3=input.nextDouble();<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//三角形判断条件   任意两个长大于第三边<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num1+num2>num3||num1+num3>num2||num2+num3>num1){<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断三角形类型<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//判断等边 等腰等<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num1==num2&&num2==num3){<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("等边三角形");<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else if (num1==num2||num2==num3||num1==num3){<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("等腰三角形");<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("不规则三角形");<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("不能组成三角形");<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+              &nbsp;&nbsp;&nbsp;}<br>
+              }<br>
+          </h3>
+      </div>
+      <h3>解析:<br>
+      </h3>
+  </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="2.html"><button>下一页</button></a>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
