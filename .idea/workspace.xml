@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="message">
-      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662513492622</updated>
-      <workItem from="1662513517811" duration="7099000" />
+      <workItem from="1662513517811" duration="7335000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1662522051924</created>
@@ -70,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662522051924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="message">
+      <created>1662526865387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662526865387</updated>
+    </task>
+    <task id="LOCAL-00003" summary="message">
+      <created>1662527011192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662527011192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
