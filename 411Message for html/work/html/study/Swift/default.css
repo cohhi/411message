@@ -1,7 +1,9 @@
-body{
-    background: #EFE5A7;
+*{
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
 }
-button {
+button{
     --border-radius: 15px;
     --border-width: 4px;
     appearance: none;
@@ -82,4 +84,8 @@ p{
     color: #303030;
 }
 h4{
+}
+#background{
+    background-color: black;
+    color: #00ca4e;
 }
