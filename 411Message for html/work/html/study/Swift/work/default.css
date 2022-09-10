@@ -94,3 +94,11 @@ div.background{
 #center{
     text-align: center;
 }
+div.background1{
+    background-color: #e440bb;
+    color: black;
+    text-align: left;
+    border-radius: 30px;
+    margin: 100px;
+    padding: 100px;
+}
