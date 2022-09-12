@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="message">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/1/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/3/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/3/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/4/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/4/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/04.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +81,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\4" />
+      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\3" />
+      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\1" />
       <recent name="D:\GitHub\网站\411message\411Message for html\jQuery" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Swift\work" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Mysql\work" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\picture" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +103,10 @@
       <workItem from="1662732621795" duration="2296000" />
       <workItem from="1662774529603" duration="1405000" />
       <workItem from="1662812946390" duration="1439000" />
+      <workItem from="1662819313437" duration="89000" />
+      <workItem from="1662819462045" duration="402000" />
+      <workItem from="1662871791380" duration="52000" />
+      <workItem from="1662950243983" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1662522051924</created>
@@ -171,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662819087354</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="message">
+      <created>1662819329067</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662819329067</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
