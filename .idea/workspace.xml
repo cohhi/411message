@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="message">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/1/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/3/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/3/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/picture/4/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/month9day13/1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/linux/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/linux/picture/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +95,8 @@
       <workItem from="1662819313437" duration="89000" />
       <workItem from="1662819462045" duration="402000" />
       <workItem from="1662871791380" duration="52000" />
-      <workItem from="1662950243983" duration="2228000" />
+      <workItem from="1662950243983" duration="4862000" />
+      <workItem from="1663032937183" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1662522051924</created>
@@ -199,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662819329067</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="message">
+      <created>1662953198825</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662953198825</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
