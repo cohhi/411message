@@ -100,3 +100,8 @@ h4{
     background-color: black;
     color: #00ca4e;
 }
+div.background{
+    padding: 100px;
+    margin: auto;
+    text-align: left;
+}
