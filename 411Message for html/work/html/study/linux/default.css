@@ -95,3 +95,11 @@ div.box{
     height: auto;
     border-radius: 30px;
 }
+div.background{
+    padding: 100px;
+    margin: auto;
+    text-align: left;
+}
+div.background h3{
+    font-size: 20px;
+}

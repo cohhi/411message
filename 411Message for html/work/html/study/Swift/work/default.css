@@ -85,12 +85,12 @@ p{
 }
 h4{
 }
-div.background{
-    background-color: black;
-    color: #00ca4e;
-    margin: auto;
-    border-radius: 30px;
-}
+/*div.background{*/
+/*    background-color: black;*/
+/*    color: #00ca4e;*/
+/*    margin: auto;*/
+/*    border-radius: 30px;*/
+/*}*/
 #center{
     text-align: center;
 }
@@ -101,4 +101,13 @@ div.background1{
     border-radius: 30px;
     margin: 100px;
     padding: 100px;
+}
+div.background{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    border: 3px bisque;
+}
+div.background h3{
+    font-size: 20px;
 }
