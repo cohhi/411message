@@ -2,9 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>4</title>
+    <title>switch语句</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
 </head>
 <body>
-
+<div id="center">
+    <div>
+        <h3>这老师上课习惯用英语,哦~英格力士 听不懂根本听不懂</h3>
+        <div class="background">
+            <h3>
+                var stausCode:Int=404<br>
+                var errorString:String<br>
+                <br>
+                switch stausCode{<br>
+                case 401:<br>
+                errorString = "Unauthorized"<br>
+                <br>
+                case 403:<br>
+                errorString = "Forbidden"<br>
+                <br>
+                case 404:<br>
+                errorString = "Not Found"<br>
+                <br>
+                default:<br>
+                errorString = "None"<br>
+                }<br>
+                <br>
+                print(errorString)<br>
+            </h3>
+            <hr>
+        </div><br>
+        <div class="background">
+            优化版
+            <h3>
+                var stausCode:Int=404<br>
+                var errorString:String="Waring:"<br>
+<br>
+                switch stausCode{<br>
+                case 401,402,403;<br>
+                errorString += "There wa something wrong with the request."<br>
+                default:<br>
+                errorString += "Please review the request and try agaein"<br>
+                }<br>
+<br>
+                print(errorString)<br>
+            </h3>
+            <hr>
+        </div>
+        <h3>这老师上课习惯用英语,哦~英格力士 听不懂根本听不懂</h3>
+    </div>
+    <div class="background">
+        优化版Pro
+        <h3>
+            var stausCode:Int=404<br>
+            var errorString:String<br>
+<br>
+            switch stausCode{<br>
+            case 401:<br>
+            errorString = "Unauthorized"<br>
+<br>
+            case 400 ... 417:<br>
+            errorString = "Client error"<br>
+<br>
+            case 500 ... 505:<br>
+            errorString = "Server error"<br>
+<br>
+            default:<br>
+            errorString = "None"<br>
+            }<br>
+<br>
+            print(errorString)<br>
+        </h3>
+    </div>
+    <div>
+        <a href="3.html"><button>上一页,判断闰年</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="5.html"><button>下一页,</button></a>
+    </div>
+</div>
 </body>
 </html>

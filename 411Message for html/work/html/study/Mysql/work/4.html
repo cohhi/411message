@@ -3,8 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>MySQL</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
 </head>
 <body>
-
+<div id="center">
+    <div>
+        <h2>创建数据库:create database students;</h2>
+        <h2>创建表</h2>
+        <div class="background">
+            <h3>
+                CREATE TABLE `students`.`student` (<br>
+                `studentno` INT UNSIGNED COMMENT '学号',<br>
+                `loginpwd` VARCHAR (20) DEFAULT '00000' COMMENT '密码',<br>
+                `name` VARCHAR (20) COMMENT '姓名',<br>
+                `sex` TINYINT (1) COMMENT '性别',<br>
+                `gradeid` INT,<br>
+                `phone` VARCHAR (20) NOT NULL COMMENT '手机号码',<br>
+                `address` VARCHAR (255) NOT NULL COMMENT '住址',<br>
+                `borndate` DATETIME COMMENT '出生日期',<br>
+                `email` VARCHAR (50) NOT NULL COMMENT '邮箱',<br>
+                `identitieard` VARCHAR (18) COMMENT '身份证号码'<br>
+                ) ENGINE = INNODB CHARSET = utf8;<br>
+            </h3>
+            <h3>
+                添加数据后通过 select * from student 查看表
+            </h3>
+            <hr>
+        </div>
+        <div class="background">
+            <h3>
+                推荐几个图形化工具<br>
+                Navicat 目前用的最多，功能最强大，但是收费<br>
+                <a href="https://www.navicat.com.cn/">https://www.navicat.com.cn/</a> <br>
+                <br>
+                DataGrip JetBrains公司旗下，学生证可以白嫖<br>
+                <a href="https://www.jetbrains.com/datagrip/download/#section=windows">https://www.jetbrains.com/datagrip/download/#section=windows</a> <br>
+                <br>
+                Dbeaver  开源免费（ps:爱死开源产品了）<br>
+                <a href="https://dbeaver.io/">https://dbeaver.io/</a> <br>
+                <br>
+                SQLyong 老师上课用的<br>
+                <a href="https://webyog.com/">https://webyog.com/</a> <br>
+                <br>
+                MySQL Workbench  有开源版本 支持windows linux macos<br>
+                <a href="https://www.mysql.com/products/workbench/">https://www.mysql.com/products/workbench/</a> <br>
+            </h3>
+        </div>
+    </div>
+    <div>
+        <a href="3.html"><button>上一页,mysql基础操作</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="5.html"><button>下一页,</button></a>
+    </div>
+</div>
 </body>
 </html>
