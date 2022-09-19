@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>4</title>
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
 </head>
 <body>
+<div id="center">
+    <div class="background">
+        <p>需求:我忘了,大概就这样。</p><hr>
+        <h3>
 
+            import java.util.Scanner;<br>
+<br>
+            public class Main {<br>
+            &nbsp;&nbsp;&nbsp;public static void main(String[] args){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner input=new Scanner(System.in);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num1= input.nextDouble();<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double num2= input.nextDouble();<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(num1+" + "+num2+" = "+DataFunc.message1(num1,num2));<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(num1+" - "+num2+" = "+DataFunc.message2(num1,num2));<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(num1+" * "+num2+" = "+DataFunc.message3(num1,num2));<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(num1+" / "+num2+" = "+DataFunc.message4(num1,num2));<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class DataFunc{<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static double message1(double num1,double num2){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num1+num2;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static double message2(double num1,double num2){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num1-num2;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static double message3(double num1,double num2){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num1*num2;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static double message4(double num1,double num2){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num1/num2;<br>
+            &nbsp;&nbsp;&nbsp;}<br>
+            }<br>
+        </h3>
+    </div>
+    <div>
+        <a href="3.html"><button>上一页,登录系统</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="5.html"><button>下一页,计算器升级版</button></a>
+    </div>
+</div>
 </body>
 </html>
