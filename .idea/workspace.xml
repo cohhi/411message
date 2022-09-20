@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="message">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月20日/work.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/5/1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +118,7 @@
       <workItem from="1663566045490" duration="2584000" />
       <workItem from="1663577433145" duration="1915000" />
       <workItem from="1663631141482" duration="307000" />
-      <workItem from="1663645520361" duration="1645000" />
+      <workItem from="1663645520361" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1662522051924</created>
@@ -349,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663645607858</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="message">
+      <created>1663651757203</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1663651757203</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
