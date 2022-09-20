@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="message">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/picture/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/default.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,10 @@
       <workItem from="1663502254685" duration="1674000" />
       <workItem from="1663505160923" duration="1583000" />
       <workItem from="1663545215536" duration="102000" />
-      <workItem from="1663566045490" duration="2481000" />
+      <workItem from="1663566045490" duration="2584000" />
+      <workItem from="1663577433145" duration="1915000" />
+      <workItem from="1663631141482" duration="307000" />
+      <workItem from="1663645520361" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1662522051924</created>
@@ -327,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663505255718</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="message">
+      <created>1663568603510</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663568603510</updated>
+    </task>
+    <task id="LOCAL-00032" summary="message">
+      <created>1663579104811</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663579104811</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
