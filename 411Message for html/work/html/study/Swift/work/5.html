@@ -1,31 +1,100 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <title>5</title> 
-    <link rel="stylesheet" type="text/css" href="default.css"> 
-</head> 
-<body> 
-<div id="center"> 
-  <div class="background"> 
-    <h3> 
- 
-    </h3> 
-  </div> 
-    <div> 
-        <a href="4.html"><button>previous page,4</button></a> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href="6.html"><button>next page,6</button></a> 
-    </div> 
-</div> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for循环</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+<body>
+<div id="center">
+    <div class="background">
+        复习switch
+        <h3>
+            let x = 1<br>
+            let y = 2<br>
+<br>
+            let p = (x: x,y: y)<br>
+<br>
+            switch p{<br>
+            case (0,0):<br>
+            	print("\(p) is located on origibal")<br>
+            case ( _,0):<br>
+            	print("_,0")<br>
+            case (0,_ ):<br>
+            	print("0,_")<br>
+            case let q where q.x > 0 && q.y > 0:<br>
+            	print("1")<br>
+            case let q where q.x < 0 && q.y > 0:<br>
+            	print("2")<br>
+            case let q where q.x < 0 && q.y < 0:<br>
+            	print("3")<br>
+            case let q where q.x > 0 && q.y < 0:<br>
+            	print("4")<br>
+            default:<br>
+            	print("default")<br>
+        </h3><hr>
+    </div>
+    <div class="background">
+        for循环
+        <h3>
+            var myFirstInt:Int = 0<br>
+<br>
+            for _ in 1...5 {<br>
+            	myFirstInt += 1<br>
+            	print(myFirstInt)<br>
+            }<br>
+        </h3>
+        <hr>
+    </div>
+    <div class="background">
+        100以内能被3整除的数
+        <h3>
+            for i in 1...100{<br>
+            	if i % 3 == 0{<br>
+            		print(i)<br>
+            	}<br>
+            }<br>
+        </h3>
+        <hr>
+    </div>
+    <div class="background">
+        1+2+3+4....+100求和
+        <h3>
+            for i in 1...100 {<br>
+            	sum+=i<br>
+            }<br>
+            print(sum)<br>
+        </h3>
+        <hr>
+    </div>
+    <div class="background">
+        20以内的阶乘
+        <h3>
+            var p=1<br>
+            for i in 1...20{<br>
+                p*=i;<br>
+            }<br>
+            print(p)<br>
+        </h3>
+    </div>
+    <div>
+        <a href="4.html">
+            <button>previous page,switch语句</button>
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="6.html">
+            <button>next page,6</button>
+        </a>
+    </div>
+</div>
+</body>
 </html>
