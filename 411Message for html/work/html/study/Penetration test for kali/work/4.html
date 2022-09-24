@@ -2,18 +2,33 @@
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8"> 
-    <title>4</title> 
+    <title>局域网网站</title>
     <link rel="stylesheet" type="text/css" href="default.css"> 
 </head> 
 <body> 
 <div id="center"> 
-  <div class="background"> 
-    <h3> 
- 
+  <div class="background">
+      <h3>首先安装apache服务,终端输入sudo apt install apache2(kali自带)</h3>
+      <img src="picture/27.png" alt=""><hr>
+      <h3>安装完成后可通过apache2 version查看版本信息</h3>
+      <img src="picture/28.png" alt=""><hr>
+      <h3>首先进入/var/www/html路径，删除其中的内容</h3><br>
+      <h3>可通过rm命令删除需要删除的文件,选择后输入密码点击回车</h3>
+      <img src="picture/29.png" alt=""><hr>
+      <h3>通过mv命令将生成的被控端文件移动到apache服务位置</h3>
+      <img src="picture/30.png" alt=""><hr>
+      <h3>终端输入service apache2 start启动apache服务</h3>
+      <h3>在弹出界面中输入密码</h3>
+      <h3>一般情况下,如果没报错就是启动成功了</h3>
+      <img src="picture/31.png" alt=""><hr>
+      <h3>在浏览器中输入kali的ip就可以访问内网网站了</h3><br>
+      <h3>点击shell.exe就可以下载文件了</h3>
+      <img src="picture/32.png" alt=""><hr>
+    <h3>
     </h3> 
   </div> 
     <div> 
-        <a href="3.html"><button>previous page,3</button></a> 
+        <a href="3.html"><button>previous page,生成被控端</button></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -24,7 +39,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href="5.html"><button>next page,5</button></a> 
+        <a href="5.html"><button>next page,连接靶机</button></a>
     </div> 
 </div> 
 </body> 

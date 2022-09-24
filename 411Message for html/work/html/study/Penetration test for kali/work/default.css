@@ -109,3 +109,10 @@ div.background{
 div.background h3{
     font-size: 20px;
 }
+
+hr{
+    width: auto;
+    height: 10px;
+    background: #B93AF7;
+    border-radius: 20px;
+}
