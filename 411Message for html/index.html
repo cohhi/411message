@@ -4,7 +4,7 @@
     <link href="picture/411.jpg" style="width: 200px;height: 200px">
     <title>411主页 for chinese</title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./picture/logo.ico" type="image/x-icon" />
 <!--    author:steam-404-->
 </head>
 
@@ -12,6 +12,17 @@
     #language{
         text-align: right;
     }
+    ul{
+        width: auto;
+        height: auto;
+    }
+    li{
+        width: 60px;
+        height: 20px;
+        background: #488cfb;
+        text-align: center;
+    }
+
     .cssbuttons-io-button {
         background: #A370F0;
         color: white;
@@ -339,7 +350,6 @@
                     .scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
             requestAnimationFrame(r)
         }
-
         function n() {
             var t = "function" == typeof e.onclick && e.onclick;
             e.onclick = function (e) {
@@ -381,6 +391,7 @@
             ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
         ), n(), r()
     }(window, document);
+
 </script>
 <!--<div class="box">-->
 <!--    <div class="container">-->
@@ -412,10 +423,13 @@
     <br>
     <button onclick="message()">么么哒</button><br><br><br>
     <button onclick="nowTimes()">当前时间</button>
-    <div id="language">
-        <a href="indexForEnglish.html">english</a><br>
-        <a href="indexForJapanese.html">日本语</a><br>
-        <a href="indexForNumerous.html">繁体</a><br>
+    <div id="language" style="text-align: right">
+        <ul>language
+            <li><a href="indexForEnglish.html"><h2>english</h2></a><br></li>
+            <li><a href="indexForJapanese.html"><h2>日本语</h2></a><br></li>
+            <li><a href="indexForNumerous.html"><h2>繁体</h2></a><br></li>
+        </ul>
+
     </div>
     <h5 style="color: #F903FF">:)粉嫩少女主题限定</h5>
     <p style="text-align: center"><em><i>Supreme</i></em></p>
