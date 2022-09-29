@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="多语言版主页">
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="多语言版优化">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/picture/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/indexForEnglish.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/indexForEnglish.html" afterDir="false" />
@@ -21,7 +22,58 @@
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/18.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/19.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/message1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/3/example01.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月20日/work.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月25日/9月25日.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月26日/9月26日.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/work.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月7日/花店.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/month9Day5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/2/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/3/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/5/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/6/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/7/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/demo/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/demo/example.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +117,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "D:/GitHub/网站/411message/411Message for html",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "copyright.profiles",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/网站/411message/411Message for html&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\网站\411message\411Message for html" />
@@ -94,11 +146,11 @@
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Penetration test for kali\work\pythonTest\venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月29日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月27日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\6" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月26日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Mysql\work" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\picture\2" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript 调试.index.html">
@@ -179,14 +231,11 @@
       <workItem from="1664281759356" duration="2850000" />
       <workItem from="1664325205244" duration="714000" />
       <workItem from="1664326551297" duration="778000" />
-      <workItem from="1664339685452" duration="5428000" />
-    </task>
-    <task id="LOCAL-00009" summary="message">
-      <created>1662689013923</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1662689013923</updated>
+      <workItem from="1664339685452" duration="6786000" />
+      <workItem from="1664410170524" duration="3444000" />
+      <workItem from="1664417035569" duration="66000" />
+      <workItem from="1664422751207" duration="2667000" />
+      <workItem from="1664434183583" duration="221000" />
     </task>
     <task id="LOCAL-00010" summary="message">
       <created>1662689150163</created>
@@ -524,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664364920717</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="多语言版优化">
+      <created>1664367084589</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1664367084589</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,6 +641,7 @@
     <MESSAGE value="month9day27 for web" />
     <MESSAGE value="主页设计的潮流一点" />
     <MESSAGE value="多语言版主页" />
-    <option name="LAST_COMMIT_MESSAGE" value="多语言版主页" />
+    <MESSAGE value="多语言版优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="多语言版优化" />
   </component>
 </project>
