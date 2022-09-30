@@ -5,89 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="多语言版优化">
-      <change afterPath="$PROJECT_DIR$/411Message for html/picture/logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/message1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/PythonTest/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/PythonTest/message1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/demo/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/demo/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/3/example01.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月20日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月25日/9月25日.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月26日/9月26日.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月27日/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月27日/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月27日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月29日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/File/9月7日/花店.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/month9Day5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/1/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/1/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/1/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/2/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/Web/work/picture/9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/3/example01.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月20日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月25日/9月25日.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月26日/9月26日.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月29日/work.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月7日/花店.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/month9Day5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/2/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/9/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/picture/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/picture/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/indexForEnglish.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/indexForEnglish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Penetration test for kali/work/20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/PythonTest/message1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/demo/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/3/example01.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月20日/work.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月25日/9月25日.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月26日/9月26日.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月27日/work.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/9月7日/花店.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/month9Day5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/1/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/2/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/3/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/5/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/6/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/7/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/picture/8/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/demo/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/demo/example.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,8 +236,13 @@
       <workItem from="1664417035569" duration="66000" />
       <workItem from="1664422751207" duration="2667000" />
       <workItem from="1664434183583" duration="221000" />
-      <workItem from="1664451800638" duration="1157000" />
-      <workItem from="1664513242826" duration="2940000" />
+    </task>
+    <task id="LOCAL-00010" summary="message">
+      <created>1662689150163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662689150163</updated>
     </task>
     <task id="LOCAL-00011" summary="message">
       <created>1662734341789</created>
@@ -588,14 +580,7 @@
       <option name="project" value="LOCAL" />
       <updated>1664367084589</updated>
     </task>
-    <task id="LOCAL-00059" summary="多语言版优化">
-      <created>1664452140077</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1664452140078</updated>
-    </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
