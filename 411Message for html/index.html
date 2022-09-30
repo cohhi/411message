@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./picture/logo.ico" type="image/x-icon" />
 <!--    author:steam-404-->
+<!--    ps:已经成屎山了，我也看不懂代码了，别乱改-->
 </head>
-
 <style type="text/css">
     #language{
         text-align: right;
@@ -22,7 +22,22 @@
         background: #488cfb;
         text-align: center;
     }
+    /*导航栏css*/
+    #navigation_bar{
+        background-image: linear-gradient(45deg,#DDC2EC,#A9C1EE);
+        width: auto;
+        height: 60px;
+        border-radius: 20px;
+        border: #488cfb solid 2px;
+        text-align: center;
+        line-height: 50px;
+    }
+    #navigation_bar span{
+        font-size: 30px;
+    }
+    div.start{
 
+    }
     .cssbuttons-io-button {
         background: #A370F0;
         color: white;
@@ -193,7 +208,7 @@
         background: #9BAF7E;
     }
 
-    box {
+    box{
         position: relative;
         width: 220px;
         height: 300px;
@@ -339,7 +354,6 @@
         second=new Date().getSeconds();
         alert("当前时间UTC:   "+year+"年"+month+"月"+day+"日"+hours+":"+minutes+"分"+second+"秒");
     }
-
 </script>
 <script type="text/javascript">
     ! function (e, t, a) {
@@ -393,6 +407,9 @@
     }(window, document);
 
 </script>
+<script src="jQuery/jquery.js">
+
+</script>
 <!--<div class="box">-->
 <!--    <div class="container">-->
 <!--        <h2>...</h2>-->
@@ -424,7 +441,7 @@
     <button onclick="message()">么么哒</button><br><br><br>
     <button onclick="nowTimes()">当前时间</button>
     <div id="language" style="text-align: right">
-        <ul>language
+        <ul>
             <li><a href="indexForEnglish.html"><h2>english</h2></a><br></li>
             <li><a href="indexForJapanese.html"><h2>日本语</h2></a><br></li>
             <li><a href="indexForNumerous.html"><h2>繁体</h2></a><br></li>
@@ -438,7 +455,12 @@
 <hr/>
 <div id="two">
     <h4>Enter the 411 -->></h4>
-    <a style="text-align: center" href="work/html/start.html"><img src="picture/411.jpg" alt=""></a>
+<!--    <a style="text-align: center" href="work/html/start.html"><img src="picture/411.jpg" alt=""></a>-->
+    <div id="navigation_bar">
+        <a class="start" href="work/html/startOne.html"><span>学习区</span></a>
+        <a class="start" href="work/html/startTwo.html"><span>工具区</span></a>
+        <a class="start" href="work/html/startThree.html"><span>建设中...ing</span></a>
+    </div>
 </div>
 <br>
 <div id="three">

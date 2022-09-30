@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <meta charset="UTF-8">
+    <title>9月5日</title>
+</head>
+<script>
+    function times(){
+        let year,month,day,hours,minutes;
+        year=new Date().getFullYear();
+        month=new Date().getMonth();
+        day=new Date().getDay();
+        hours=new Date().getHours();
+        minutes=new Date().getMinutes();
+        alert(year+"/"+month+"/"+day+" "+hours+":"+minutes);
+    }
+</script>
+<body>
+<div id="one">
+    <div id="oneOne">
+        <p style="text-align: right" onclick="times()">时间</p>
+        <div id="oneMessage">
+            <!--            <p>内容</p>-->
+            <!--            <p>解析:阿巴阿巴</p>-->
+        </div>
+        <div id="right">
+            <button style="text-align: right">下一页--></button>
+        </div>
+    <br><br><br><br><br>
+    <div id="end">
+        <a href=""><button>返回</button></a>
+        <script>
+            function message(){
+                alert("鸡你太美")
+            }
+        </script>
+        <h6 onclick="message()">🐔||🏀</h6>
+    </div>
+    </div>
+</div>
+</body>
+</html>
