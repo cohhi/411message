@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="多语言版优化">
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="debug">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/picture/7/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/picture/7/2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,13 +173,7 @@
       <workItem from="1664417035569" duration="66000" />
       <workItem from="1664422751207" duration="2667000" />
       <workItem from="1664434183583" duration="221000" />
-    </task>
-    <task id="LOCAL-00010" summary="message">
-      <created>1662689150163</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1662689150163</updated>
+      <workItem from="1664540081272" duration="1321000" />
     </task>
     <task id="LOCAL-00011" summary="message">
       <created>1662734341789</created>
@@ -513,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664367084589</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="debug">
+      <created>1664539913308</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1664539913308</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,6 +580,7 @@
     <MESSAGE value="主页设计的潮流一点" />
     <MESSAGE value="多语言版主页" />
     <MESSAGE value="多语言版优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="多语言版优化" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
 </project>
