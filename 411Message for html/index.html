@@ -1,11 +1,10 @@
 <!doctype>
 <html lang="zh" xmlns="">
 <head>
-    <link href="picture/411.jpg" style="width: 200px;height: 200px">
     <title>411主页 for chinese</title>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./picture/logo.ico" type="image/x-icon" />
-<!--    author:steam-404-->
+<!--    author:steam-404 for GitHub-->
 <!--    ps:已经成屎山了，我也看不懂代码了，别乱改-->
 </head>
 <style type="text/css">
@@ -17,10 +16,8 @@
         height: auto;
     }
     li{
-        width: 60px;
-        height: 20px;
-        background: #488cfb;
-        text-align: center;
+        display: inline-block;
+
     }
     /*导航栏css*/
     #navigation_bar{
@@ -37,6 +34,10 @@
     }
     div.start{
 
+    }
+    a{
+        text-decoration: none;
+    /*    取消超链接的下划线*/
     }
     .cssbuttons-io-button {
         background: #A370F0;
@@ -195,8 +196,7 @@
         text-align: center;
     }
     body{
-        /*background-image: linear-gradient(125deg,#96B97D,#EB2C89);*/
-        background-image: url("picture/chaoliu.png");
+        background-image: linear-gradient(45deg,#0FC5D7,#6E5EDD);
         width: auto;
         height: auto;
     }img{
@@ -439,18 +439,32 @@
 <!--    </h6>-->
     <br>
     <button onclick="message()">么么哒</button><br><br><br>
+    <script>
+        function nowTimes(){
+            var time=new Date();
+            var year=time.getFullYear();
+            var month=time.getMonth()+1;
+            var day=time.getDate();
+            var hour=time.getHours();
+            var minute=time.getMinutes();
+            var second=time.getSeconds();
+
+            var result=year+"年"+month+"月"+day+"日"+hour+"时"+minute+"分"+second+"秒";
+            alert(result)
+        }
+    </script>
     <button onclick="nowTimes()">当前时间</button>
     <div id="language" style="text-align: right">
         <ul>
-            <li><a href="indexForEnglish.html"><h2>english</h2></a><br></li>
-            <li><a href="indexForJapanese.html"><h2>日本语</h2></a><br></li>
-            <li><a href="indexForNumerous.html"><h2>繁体</h2></a><br></li>
+            <li><a href="indexForEnglish.html"><h2>english&nbsp;||</h2></a><br></li>
+            <li><a href="indexForJapanese.html"><h2>&nbsp;日本語&nbsp;||</h2></a><br></li>
+            <li><a href="indexForNumerous.html"><h2>&nbsp;||繁体</h2></a><br></li>
         </ul>
 
     </div>
     <h5 style="color: #F903FF">:)粉嫩少女主题限定</h5>
-    <p style="text-align: center"><em><i>Supreme</i></em></p>
-    <h4>411网站5.0全新版,更新了更嚣张的布局,更炫彩的ul。以及你知道或者不知道的网络服务。port:411</h4>
+    <p style="text-align: center"><em><i>ikun</i></em></p>
+<!--    <h4>411网站5.0全新版,更新了更嚣张的布局,更炫彩的ul。以及你知道或者不知道的网络服务。port:411</h4>-->
 </div>
 <hr/>
 <div id="two">
@@ -469,13 +483,8 @@
             alert("爱你呦么么哒");
         }
     </script>
-    <button onclick="messageTwo"><h4 style="font-size: 20px">表情包区点击任意胡桃进入>>>...</h4></button>
     <br>
     <a href="">
-        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
-        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
-        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
-        <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
         <img style="width: 300px; height: 300px" src="picture/01.jpg" alt="auto">
     </a>
     <hr style="border: 50px slateblue">
@@ -497,11 +506,11 @@
             </div>
         </button>
     </a>
-</div>
-<div style="text-align: center">
+    <div style="text-align: center">
     <script type="text/javascript" src="index/messageOne.js">
     </script>
     <button onclick="messageOne()">🏀🏀🏀🏀🏀🐓🏀🏀🏀🏀🏀</button>     <!--当用户点击button上的篮球时弹出鸡你太美-->
+</div>
 </div>
 </body>
 </html>

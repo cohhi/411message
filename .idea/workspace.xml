@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="debug">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/picture/7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/picture/7/2.png" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="两节mysql教程">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +169,9 @@
       <workItem from="1664417035569" duration="66000" />
       <workItem from="1664422751207" duration="2667000" />
       <workItem from="1664434183583" duration="221000" />
-      <workItem from="1664540081272" duration="1321000" />
-    </task>
-    <task id="LOCAL-00011" summary="message">
-      <created>1662734341789</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1662734341789</updated>
+      <workItem from="1664540081272" duration="1427000" />
+      <workItem from="1664619378546" duration="3655000" />
+      <workItem from="1664626248978" duration="323000" />
     </task>
     <task id="LOCAL-00012" summary="message">
       <created>1662819087354</created>
@@ -518,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664539913308</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="两节mysql教程">
+      <created>1664541432119</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1664541432119</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,6 +579,7 @@
     <MESSAGE value="多语言版主页" />
     <MESSAGE value="多语言版优化" />
     <MESSAGE value="debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug" />
+    <MESSAGE value="两节mysql教程" />
+    <option name="LAST_COMMIT_MESSAGE" value="两节mysql教程" />
   </component>
 </project>
