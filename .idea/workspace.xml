@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="两节mysql教程">
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="优化主页,以适应低带宽">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/study.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/study.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +171,8 @@
       <workItem from="1664434183583" duration="221000" />
       <workItem from="1664540081272" duration="1427000" />
       <workItem from="1664619378546" duration="3655000" />
-      <workItem from="1664626248978" duration="323000" />
-    </task>
-    <task id="LOCAL-00012" summary="message">
-      <created>1662819087354</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1662819087354</updated>
+      <workItem from="1664626248978" duration="597000" />
+      <workItem from="1664722465862" duration="216000" />
     </task>
     <task id="LOCAL-00013" summary="message">
       <created>1662819329067</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664541432119</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="优化主页,以适应低带宽">
+      <created>1664626714199</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1664626714200</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,6 +581,7 @@
     <MESSAGE value="多语言版优化" />
     <MESSAGE value="debug" />
     <MESSAGE value="两节mysql教程" />
-    <option name="LAST_COMMIT_MESSAGE" value="两节mysql教程" />
+    <MESSAGE value="优化主页,以适应低带宽" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化主页,以适应低带宽" />
   </component>
 </project>
