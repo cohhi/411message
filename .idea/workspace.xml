@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="优化主页,以适应低带宽">
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/411Message for html/picture/ikun.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/REDMI.txt" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/REDMI.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/study.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/study.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 调试.indexForEnglish.html" />
         <item itemvalue="JavaScript 调试.index.html" />
+        <item itemvalue="JavaScript 调试.indexForEnglish.html" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +174,9 @@
       <workItem from="1664540081272" duration="1427000" />
       <workItem from="1664619378546" duration="3655000" />
       <workItem from="1664626248978" duration="597000" />
-      <workItem from="1664722465862" duration="216000" />
-    </task>
-    <task id="LOCAL-00013" summary="message">
-      <created>1662819329067</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1662819329067</updated>
+      <workItem from="1664722465862" duration="360000" />
+      <workItem from="1664754943986" duration="3712000" />
+      <workItem from="1664801849089" duration="1567000" />
     </task>
     <task id="LOCAL-00014" summary="message">
       <created>1662953198825</created>
@@ -517,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664626714200</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="javascript教程框架">
+      <created>1664722729856</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1664722729856</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,6 +586,7 @@
     <MESSAGE value="debug" />
     <MESSAGE value="两节mysql教程" />
     <MESSAGE value="优化主页,以适应低带宽" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化主页,以适应低带宽" />
+    <MESSAGE value="javascript教程框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript教程框架" />
   </component>
 </project>
