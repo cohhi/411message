@@ -13,3 +13,29 @@
 找到DocumentRoot "${SRVROOT}/htdocs<br>
 将原内容替换为:    DocumentRoot "${SRVROOT}/htdocs/411message/411Message for html"<br>
 
+
+
+for english
+Abba Abba... The index.html in 411message for html is the home page
+
+
+
+Build environment: python 3.9 windwos, service apache2.4 recommended for intranet penetration frp or peanut shell
+
+
+
+When using, you need to install the python compiler www.pythom.org
+
+The python script of the home directory is applicable to the Windows platform, and the apache 2.4 service
+
+When using this script, please put it in the Apache directory and click Execute: Apache24/htdocs/
+
+
+
+If you want to jump to a web page directly through the Apache service, please modify the Apache file
+
+Open the Apache directory Apache2.4/conf/httpd.conf
+
+Find DocumentRoot "${SRVROOT}/htdocs
+
+Replace the original content with: DocumentRoot "${SRVROOT}/htdocs/411message/411Message for html"
