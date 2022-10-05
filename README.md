@@ -10,5 +10,6 @@
 
 如果想要直接通过apache服务直接跳转网页时请修改apache文件\<br>
 打开apache目录      Apache2.4/conf/httpd.conf\<br> 
-找到DocumentRoot "${SRVROOT}/htdocs  将原内容替换为:    DocumentRoot "${SRVROOT}/htdocs/411message/411Message for html"\<br>
+找到DocumentRoot "${SRVROOT}/htdocs\<br>
+将原内容替换为:    DocumentRoot "${SRVROOT}/htdocs/411message/411Message for html"\<br>
 
