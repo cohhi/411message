@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/411Message for html/picture/ikun.png" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="debug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/REDMI.txt" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/REDMI.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/网站/411message/411Message for html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Web/411message&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -176,42 +175,10 @@
       <workItem from="1664626248978" duration="597000" />
       <workItem from="1664722465862" duration="360000" />
       <workItem from="1664754943986" duration="3712000" />
-      <workItem from="1664801849089" duration="1567000" />
-    </task>
-    <task id="LOCAL-00014" summary="message">
-      <created>1662953198825</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1662953198825</updated>
-    </task>
-    <task id="LOCAL-00015" summary="message">
-      <created>1663035018324</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1663035018324</updated>
-    </task>
-    <task id="LOCAL-00016" summary="message">
-      <created>1663126390184</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1663126390184</updated>
-    </task>
-    <task id="LOCAL-00017" summary="message">
-      <created>1663126555227</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1663126555227</updated>
-    </task>
-    <task id="LOCAL-00018" summary="message">
-      <created>1663126966973</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1663126966973</updated>
+      <workItem from="1664801849089" duration="1721000" />
+      <workItem from="1664845610415" duration="7875000" />
+      <workItem from="1664864387520" duration="288000" />
+      <workItem from="1664864697232" duration="27000" />
     </task>
     <task id="LOCAL-00019" summary="message">
       <created>1663127103886</created>
@@ -521,7 +488,42 @@
       <option name="project" value="LOCAL" />
       <updated>1664722729856</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="首页稍微修改一点">
+      <created>1664803509021</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1664803509021</updated>
+    </task>
+    <task id="LOCAL-00064" summary="sql中where语句教程">
+      <created>1664859378767</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1664859378767</updated>
+    </task>
+    <task id="LOCAL-00065" summary="预留的网页">
+      <created>1664859404338</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1664859404338</updated>
+    </task>
+    <task id="LOCAL-00066" summary="修复字体缺失">
+      <created>1664860267051</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1664860267051</updated>
+    </task>
+    <task id="LOCAL-00067" summary="debug">
+      <created>1664864578417</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1664864578417</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,10 +585,14 @@
     <MESSAGE value="主页设计的潮流一点" />
     <MESSAGE value="多语言版主页" />
     <MESSAGE value="多语言版优化" />
-    <MESSAGE value="debug" />
     <MESSAGE value="两节mysql教程" />
     <MESSAGE value="优化主页,以适应低带宽" />
     <MESSAGE value="javascript教程框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="javascript教程框架" />
+    <MESSAGE value="首页稍微修改一点" />
+    <MESSAGE value="sql中where语句教程" />
+    <MESSAGE value="预留的网页" />
+    <MESSAGE value="修复字体缺失" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
 </project>

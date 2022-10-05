@@ -114,20 +114,34 @@
     button:active {
         background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
     }
+    div.one.two.user input{
+        color: #ae00ff;
+    }
+    div.one.two.user input{
+    }
 </style>
 <body>
 <script>
-    function message(){
-        alert("登陆失败:")
+    //测试登录系统
+    function login(){
+
     }
 </script>
     <div id="one">
         <div id="two">
             <h4>登录</h4>
-            <input type="text" placeholder="UserName:">
-            <input type="password" placeholder="Password:">
+            <div class="user">
+                <label>
+                    <input type="text" placeholder="UserName:">
+                </label>
+            </div>
+            <div class="password">
+                <label>
+                    <input type="password" placeholder="Password:">
+                </label>
+            </div>
             <br>
-            <button>Login</button>
+            <button onclick="login()">Login</button>
         </div>
     </div>
 </body>
