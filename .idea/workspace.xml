@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="10月5日  SQL作业">
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="10月5日 笔记">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,27 +183,11 @@
       <workItem from="1664934239084" duration="829000" />
       <workItem from="1664938565027" duration="770000" />
       <workItem from="1664943065382" duration="132000" />
-    </task>
-    <task id="LOCAL-00023" summary="message">
-      <created>1663232811954</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1663232811954</updated>
-    </task>
-    <task id="LOCAL-00024" summary="message">
-      <created>1663324943938</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1663324943938</updated>
-    </task>
-    <task id="LOCAL-00025" summary="message">
-      <created>1663325068573</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1663325068573</updated>
+      <workItem from="1664944107045" duration="283000" />
+      <workItem from="1664973854010" duration="624000" />
+      <workItem from="1665016267139" duration="39000" />
+      <workItem from="1665016462568" duration="1385000" />
+      <workItem from="1665130145605" duration="3191000" />
     </task>
     <task id="LOCAL-00026" summary="message">
       <created>1663325100029</created>
@@ -525,7 +511,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664939218960</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="debug">
+      <created>1664944214522</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1664944214523</updated>
+    </task>
+    <task id="LOCAL-00073" summary="debug">
+      <created>1664974346296</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1664974346296</updated>
+    </task>
+    <task id="LOCAL-00074" summary="10月5日 笔记">
+      <created>1664974390742</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1664974390742</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,8 +601,9 @@
     <MESSAGE value="sql中where语句教程" />
     <MESSAGE value="预留的网页" />
     <MESSAGE value="修复字体缺失" />
-    <MESSAGE value="debug" />
     <MESSAGE value="10月5日  SQL作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="10月5日  SQL作业" />
+    <MESSAGE value="debug" />
+    <MESSAGE value="10月5日 笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="10月5日 笔记" />
   </component>
 </project>
