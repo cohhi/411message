@@ -17,7 +17,8 @@
 
         <h3 id="junit"></h3>
         <p>junit</p>
-        <h3>准确来说是junit4,以idea为例:</h3><br>
+        <h3>准确来说是junit4</h3>
+        <h3>以idea为例:</h3><br>
         <h3>打开idea点击左上角文件-选择项目结构</h3>
         <img src="picture/5/1.png" alt="">
         <h3>选择模块</h3>
@@ -42,10 +43,19 @@
         <h3>点这两个中任意一个就会自动下载</h3>
         <br>
         <h3>解压到本地,修改配置文件:打开Apache24/conf/httpd.conf</h3>
-        <h3>大概在第39行,将Define SRVRoot "这里改为安装路径"  例:</h3>
+        <h3>大概在第39行,将Define SRVRoot "这里改为安装路径(比如我是d盘)"  例:</h3>
         <img src="picture/5/9.png" alt="">
         <h3>改完后记得保存哟</h3>
-
+        <h3>打开cmd将路径切换到apache,或者添加环境变量</h3>
+        <img src="picture/5/10.png" alt="">
+        <h3>apache -k install</h3>
+        <h3>apache -k start</h3>
+        <h3>打开浏览器输入   本机ip:80   </h3>
+        <h3>当出现类似图标时表示服务成功开启</h3>
+        <img src="picture/5/11.png" alt="">
+        <h3>在安装目录下,有个htdcos文件,该文件就是需要映射到内网的网站</h3>
+        <h3>你可以放入其他以index开头的html或htm文件,用于映射到内网服务</h3>
+        <h3>这么说一个能听懂了吧</h3>
     </div>
     <div>
         <a href="4.html"><button>上一页,计算机</button></a>
