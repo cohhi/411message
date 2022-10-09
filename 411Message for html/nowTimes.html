@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="refresh" content="1">
+    <link rel="shortcut icon" href="./picture/logo.ico" type="image/x-icon"/>
+    <title>现在时间</title>
+</head>
+<style>
+    p {
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+<body>
+<script>
+    function NowDateTimes() {
+        let arr = ['日', '一', '二', '三', '四', '五', '六']
+        let times = new Date();
+        let year = times.getFullYear();
+        let month = times.getMonth() + 1;
+        let day = times.getDay();
+        let date = times.getDate();
+        let hour = times.getHours();
+        let minute = times.getMinutes();
+        let second = times.getSeconds();
+    }
+</script>
+<div>
+
+</div>
+</body>
+</html>

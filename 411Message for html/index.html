@@ -409,6 +409,23 @@
 <script src="jQuery/jquery.js">
 
 </script>
+
+<!--times间模块-->
+<script>
+    function NowDateTimes() {
+        let arr = ['日', '一', '二', '三', '四', '五', '六']
+        let times = new Date();
+        let year = times.getFullYear();
+        let month = times.getMonth() + 1;
+        let day = times.getDay();
+        let date = times.getDate();
+        let hour = times.getHours();
+        let minute = times.getMinutes();
+        let second = times.getSeconds();
+        alert("这个功能抛弃了  只因鸡你太美")
+    }
+</script>
+
 <!--<div class="box">-->
 <!--    <div class="container">-->
 <!--        <h2>...</h2>-->
@@ -438,6 +455,7 @@
 <!--    </h6>-->
     <br>
     <button onclick="message()">么么哒</button><br><br><br>
+    <button onclick="NowDateTimes()">Times </button><br><br><br>
     <script>
         function nowTimes(){
             var time=new Date();
@@ -480,9 +498,9 @@
     <h4>Enter the 411 -->></h4>
 <!--    <a style="text-align: center" href="work/html/start.html"><img src="picture/411.jpg" alt=""></a>-->
     <div id="navigation_bar">
-        <a class="start" href="work/html/startOne.html"><span>学习区</span></a>
-        <a class="start" href="work/html/startTwo.html"><span>工具区</span></a>
-        <a class="start" href="work/html/startThree.html"><span>建设中...ing</span></a>
+        <a class="start" href="work/html/startOne.html"><span>学习区  </span></a>
+        <a class="start" href="work/html/startTwo.html"><span>工具区  </span></a>
+        <a class="start" href="work/html/startThree.html"><span>open</span></a>
     </div>
 </div>
 <br>
@@ -518,7 +536,7 @@
     <div style="text-align: center">
     <script type="text/javascript" src="index/messageOne.js">
     </script>
-    <button onclick="messageOne()">🏀🏀🏀🏀🏀🐓🏀🏀🏀🏀🏀</button>     <!--当用户点击button上的篮球时弹出鸡你太美-->
+<!--    <button onclick="messageOne()">🏀🏀🏀🏀🏀🐓🏀🏀🏀🏀🏀</button>     &lt;!&ndash;当用户点击button上的篮球时弹出鸡你太美&ndash;&gt;-->
 </div>
 </div>
 </body>
