@@ -4,7 +4,7 @@
 
 搭建环境:python3.9  windwos,service   apache2.4服务   内网穿透推荐frp或花生壳
 
-使用时需要安装python编译器  www.pythom.org<br>
+使用时需要安装python编译器  www.python.org<br>
 主目录的python脚本适用于Windows平台,apache2.4服务<br>
 使用该脚本时请将脚本放入apache目录然后点击执行:  Apache24/htdocs/<br>
 
@@ -24,8 +24,7 @@ Build environment: python 3.9 windwos, service apache2.4 recommended for intrane
 
 
 
-When using, you need to install the python compiler www.pythom.org
-
+When using, you need to install the python compiler www.python.org
 The python script of the home directory is applicable to the Windows platform, and the apache 2.4 service
 
 When using this script, please put it in the Apache directory and click Execute: Apache24/htdocs/
