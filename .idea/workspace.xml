@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="10月7日软件测试笔记补充">
-      <change afterPath="$PROJECT_DIR$/411Message for html/nowTimes.html" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/css/buttonOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/css/buttonOne.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +193,9 @@
       <workItem from="1665016462568" duration="1385000" />
       <workItem from="1665130145605" duration="3832000" />
       <workItem from="1665200798687" duration="1156000" />
-      <workItem from="1665302124760" duration="3081000" />
-    </task>
-    <task id="LOCAL-00029" summary="message">
-      <created>1663413797025</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1663413797025</updated>
+      <workItem from="1665302124760" duration="3754000" />
+      <workItem from="1665359702174" duration="1356000" />
+      <workItem from="1665453856495" duration="3580000" />
     </task>
     <task id="LOCAL-00030" summary="message">
       <created>1663505255718</created>
@@ -534,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665201856656</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="debug">
+      <created>1665307127236</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1665307127237</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,10 +610,10 @@
     <MESSAGE value="预留的网页" />
     <MESSAGE value="修复字体缺失" />
     <MESSAGE value="10月5日  SQL作业" />
-    <MESSAGE value="debug" />
     <MESSAGE value="10月5日 笔记" />
     <MESSAGE value="10月7日软件测试笔记" />
     <MESSAGE value="10月7日软件测试笔记补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="10月7日软件测试笔记补充" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
 </project>
