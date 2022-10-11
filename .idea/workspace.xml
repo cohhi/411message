@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/index/indexLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/css/buttonOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/css/buttonOne.css" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="debug">
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +189,7 @@
       <workItem from="1665200798687" duration="1156000" />
       <workItem from="1665302124760" duration="3754000" />
       <workItem from="1665359702174" duration="1356000" />
-      <workItem from="1665453856495" duration="3580000" />
-    </task>
-    <task id="LOCAL-00030" summary="message">
-      <created>1663505255718</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1663505255718</updated>
+      <workItem from="1665453856495" duration="3782000" />
     </task>
     <task id="LOCAL-00031" summary="message">
       <created>1663568603510</created>
@@ -540,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665307127237</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="debug">
+      <created>1665463699495</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1665463699495</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
