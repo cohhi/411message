@@ -1,18 +1,79 @@
 <!DOCTYPE html>
-<html lang="en>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>5</title>
+    <title>字符串</title>
     <link rel="stylesheet" type="text/css" href="default.css">
 </head>
+<body>
 <div id="center">
-    <div>
-        <p>5</p><!--����-->
-        <h3></h3><!--����-->
-        </div>
+    <div class="background">
+        <h3>
+            #在python语言中不用设定变量数据类型	需要时可转换类型<br>
+            #转义 	\<br>
+            #换行		\n<br>
+            #tab	 \t<br>
+            #字符串三种定义格式<br>
+            变量='内容'<br>
+            变量="内容"<br>
+            变量='''内容'''<br>
+<br>
+<br>
+            #python允许同时给多个变量赋值<br>
+            a=b=c=20<br>
+            print(a,b,c)<br>
+<br>
+            a,b,c=1,2,3<br>
+            print(a,b,c)<br>
+        </h3>
+        <hr>
+        <h3>
+            #python语言中注释使用 #<br>
+<br>
+<br>
+            #我是单行注释<br>
+<br>
+<br>
+            '''<br>
+            我是多行注释<br>
+            我是多行注释<br>
+            我是多行注释<br>
+            '''<br>
+        </h3>
+        <hr>
+        <h3>
+            #type() 可返回数据类型<br>
+<br>
+            print(type(变量))<br>
+        </h3>
+        <hr>
+        <h3>
+            #类型转换<br>
+            #将int转换为string类型<br>
+<br>
+            message=123<br>
+            print("当前数据类型"+type(message))<br>
+            message=str(message)<br>
+            print("当前数据类型"+type(message))<br>
+<br>
+            #转换整型 int()<br>
+            #转换浮点型 float()<br>
+        </h3>
+        <hr>
+        <h3>
+            #字符串拼接<br>
+            name="张三"<br>
+            print("我的名字是:"+name)<br>
+            print("我的名字是:",name)<br>
+<br>
+            #格式化输出<br>
+            name="张三"<br>
+            print("我是:{0}".format(name))<br>
+            print("我是:%s"%(name))<br>
+        </h3>
     </div>
     <div>
-        <a href="4.html"><button>��һҳ,</button></a>
+        <a href="4.html"><button>上一页,Pycharm</button></a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,7 +84,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="6.html"><button>��һҳ,</button></a>
+        <a href="6.html"><button>下一页,</button></a>
     </div>
 </div>
 </body>
