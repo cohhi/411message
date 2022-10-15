@@ -1,10 +1,14 @@
 import os
-
-
+import shutil
+ 
+# 删除“1”整个文件夹
 ##author : steam-404 for GitHub
 
+print("author : steam-404 for GitHub")
+
 print("正在删除旧文件")
-os.system("rmdir /q 411message")
+os.system("rd /s 411message")
+#os.removedir(411message)
 print("删除成功")
 
 print("正在重新克隆")
