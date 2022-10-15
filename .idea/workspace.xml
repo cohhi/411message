@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/picture/6/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,14 +200,8 @@
       <workItem from="1665659887505" duration="1763000" />
       <workItem from="1665713480572" duration="914000" />
       <workItem from="1665740748652" duration="875000" />
-      <workItem from="1665747240408" duration="3685000" />
-    </task>
-    <task id="LOCAL-00037" summary="message">
-      <created>1663767070930</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1663767070930</updated>
+      <workItem from="1665747240408" duration="4333000" />
+      <workItem from="1665806841615" duration="599000" />
     </task>
     <task id="LOCAL-00038" summary="message">
       <created>1663811853696</created>
@@ -563,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665662026204</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="update">
+      <created>1665750997285</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1665750997285</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,6 +622,7 @@
     <MESSAGE value="debug" />
     <MESSAGE value="sql 查询" />
     <MESSAGE value="sql 免密  update" />
+    <MESSAGE value="10月14日软件测试教程" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
