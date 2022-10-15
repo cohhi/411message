@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +79,11 @@
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Penetration test for kali\work\pythonTest\venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Web\411message\411Message for html\mp3" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月29日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月27日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\6" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月26日" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Mysql\work" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript 调试.index.html">
@@ -191,35 +192,17 @@
       <workItem from="1665359702174" duration="1356000" />
       <workItem from="1665453856495" duration="4843000" />
       <workItem from="1665484714399" duration="71000" />
-      <workItem from="1665550908179" duration="460000" />
-    </task>
-    <task id="LOCAL-00035" summary="message">
-      <created>1663657810708</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1663657810708</updated>
-    </task>
-    <task id="LOCAL-00036" summary="message">
-      <created>1663658194586</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1663658194586</updated>
-    </task>
-    <task id="LOCAL-00037" summary="message">
-      <created>1663767070930</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1663767070930</updated>
-    </task>
-    <task id="LOCAL-00038" summary="message">
-      <created>1663811853696</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1663811853696</updated>
+      <workItem from="1665550908179" duration="608000" />
+      <workItem from="1665555595006" duration="818000" />
+      <workItem from="1665567517208" duration="2008000" />
+      <workItem from="1665583462542" duration="1883000" />
+      <workItem from="1665627635609" duration="376000" />
+      <workItem from="1665632086714" duration="596000" />
+      <workItem from="1665659887505" duration="1763000" />
+      <workItem from="1665713480572" duration="914000" />
+      <workItem from="1665740748652" duration="875000" />
+      <workItem from="1665747240408" duration="4333000" />
+      <workItem from="1665806841615" duration="1896000" />
     </task>
     <task id="LOCAL-00039" summary="message">
       <created>1663821501958</created>
@@ -536,7 +519,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665551319710</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="update">
+      <created>1665551484231</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1665551484231</updated>
+    </task>
+    <task id="LOCAL-00085" summary="update">
+      <created>1665662026204</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662026204</updated>
+    </task>
+    <task id="LOCAL-00086" summary="update">
+      <created>1665750997285</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1665750997285</updated>
+    </task>
+    <task id="LOCAL-00087" summary="update">
+      <created>1665807770101</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1665807770101</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,6 +623,7 @@
     <MESSAGE value="debug" />
     <MESSAGE value="sql 查询" />
     <MESSAGE value="sql 免密  update" />
+    <MESSAGE value="10月14日软件测试教程" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
