@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update for python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" afterDir="false" />
     </list>
@@ -207,14 +205,8 @@
       <workItem from="1665740748652" duration="875000" />
       <workItem from="1665747240408" duration="4333000" />
       <workItem from="1665806841615" duration="1896000" />
-      <workItem from="1665883609089" duration="733000" />
-    </task>
-    <task id="LOCAL-00041" summary="message">
-      <created>1663821642638</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1663821642638</updated>
+      <workItem from="1665883609089" duration="1721000" />
+      <workItem from="1665970014102" duration="762000" />
     </task>
     <task id="LOCAL-00042" summary="message">
       <created>1663826018000</created>
@@ -552,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665818409028</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="update for python">
+      <created>1665884383046</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1665884383048</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,6 +629,7 @@
     <MESSAGE value="sql 免密  update" />
     <MESSAGE value="10月14日软件测试教程" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update for python" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for python" />
   </component>
 </project>
