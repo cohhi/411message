@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update for python">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" afterDir="false" />
+    <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update for mysql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,14 +209,8 @@
       <workItem from="1665993796657" duration="293000" />
       <workItem from="1665996691351" duration="1120000" />
       <workItem from="1666002993591" duration="631000" />
-      <workItem from="1666054830496" duration="669000" />
-    </task>
-    <task id="LOCAL-00043" summary="message">
-      <created>1663919623682</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1663919623682</updated>
+      <workItem from="1666054830496" duration="1124000" />
+      <workItem from="1666058930674" duration="499000" />
     </task>
     <task id="LOCAL-00044" summary="message">
       <created>1663941160935</created>
@@ -555,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665970883517</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="update for mysql">
+      <created>1666055550899</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1666055550899</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="message" />
     <MESSAGE value="快照" />
     <MESSAGE value="null" />
     <MESSAGE value="ssh" />
@@ -634,6 +633,7 @@
     <MESSAGE value="10月14日软件测试教程" />
     <MESSAGE value="update" />
     <MESSAGE value="update for python" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for python" />
+    <MESSAGE value="update for mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for mysql" />
   </component>
 </project>
