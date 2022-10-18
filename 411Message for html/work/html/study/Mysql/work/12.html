@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小案例</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+<body>
+<div id="center">
+    <div class="background">
+            <p>创建tb_worker数据表</p>
+            <h3>create table tb_worker(</h3>
+            <h3>id INT(11)PRIMARY KEY AUTO_INCREMENT,</h3>
+            <h3>name VARCHAR(30)NOT NUll,</h3>
+            <h3>sex ENUM('w','m') DEFAULT 'm',</h3>
+            <h3>hobby SET('football','basketball','volleyball'),</h3>
+            <h3>score FLOAT(3,1) UNSIGNED,</h3>
+            <h3>moblie char(11)  UNIQUE NOT NULL,</h3>
+            <h3>entry_time DATE</h3>
+            <h3>)ENGINE=MyISAM;</h3>
+        <hr>
+        <p>查询表结构</p>
+        <h3>desc tb_worker</h3>
+        <hr>
+        <p>修改moblie的数据类型</p>
+        <h3>alter table tb_worker MODIFY moblie varchar(11);</h3>
+        <hr>
+        <p>在moblie后添加字段</p>
+        <h3>alter table tb_worker add intro text after moblie;</h3>
+        <hr>
+        <h3 style="color: #ae00ff">小知识  mysql按上下键可以赋值上下键命令</h3>
+    </div>
+    <div>
+        <a href="11.html"><button>免密</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="13.html"><button></button></a>
+    </div>
+</div>
+</body>
+</html>

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update for python">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/11.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,14 +206,11 @@
       <workItem from="1665747240408" duration="4333000" />
       <workItem from="1665806841615" duration="1896000" />
       <workItem from="1665883609089" duration="1721000" />
-      <workItem from="1665970014102" duration="762000" />
-    </task>
-    <task id="LOCAL-00042" summary="message">
-      <created>1663826018000</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1663826018000</updated>
+      <workItem from="1665970014102" duration="1334000" />
+      <workItem from="1665993796657" duration="293000" />
+      <workItem from="1665996691351" duration="1120000" />
+      <workItem from="1666002993591" duration="631000" />
+      <workItem from="1666054830496" duration="669000" />
     </task>
     <task id="LOCAL-00043" summary="message">
       <created>1663919623682</created>
@@ -551,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665884383048</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="update for python">
+      <created>1665970883517</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1665970883517</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
