@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update for mysql">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,21 +213,9 @@
       <workItem from="1665996691351" duration="1120000" />
       <workItem from="1666002993591" duration="631000" />
       <workItem from="1666054830496" duration="1124000" />
-      <workItem from="1666058930674" duration="499000" />
-    </task>
-    <task id="LOCAL-00044" summary="message">
-      <created>1663941160935</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1663941160935</updated>
-    </task>
-    <task id="LOCAL-00045" summary="message">
-      <created>1663998788555</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1663998788555</updated>
+      <workItem from="1666058930674" duration="646000" />
+      <workItem from="1666060870021" duration="60000" />
+      <workItem from="1666150504095" duration="1515000" />
     </task>
     <task id="LOCAL-00046" summary="message">
       <created>1663999676968</created>
@@ -555,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666055550899</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="update for mysql">
+      <created>1666059467956</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1666059467956</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update for mysql">
+      <created>1666059545647</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1666059545647</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

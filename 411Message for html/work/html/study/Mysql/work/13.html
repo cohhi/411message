@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小案例</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+<body>
+<div id="center">
+    <div class="background">
+        <h3>select * from goods; 查询所有字段 <br>
+            添加条件时必须添加where <br>
+            select * from where type ='糖类'<br>
+        </h3>
+        <hr>
+        <h3>
+            in/not in集合运算符 <br>
+            in返回指定的集合 <br>
+            not in 不返回指定的集合 <br>
+        </h3>
+        <hr>
+        <h3>
+            查询表结构 <br>
+            describe可简写desc <br>
+            desc 表名 <br>
+        </h3>
+        <hr>
+        <h3>
+            #sql查询时默认顺序排列,如果想要把查询结果将指定顺序排列则使用order by
+            默认升序
+            <br> <br>
+            select age,name,id,address from test  order age <br> <br>
+            #降序排列  desc <br> <br>
+            select age,name,id,address from test  order age desc <br>
+        </h3>
+        <hr>
+        <h3>
+            limit <br> <br>
+
+            限定排序     limit	显示哪一些数据	(默认显示一千条数据)<br>
+            <br><br>
+            #默认方法
+            select * from test limit 0,1000
+            <br><br>
+            #查看
+            select * from test limit 3,5
+            #第三行开始往后显示5行
+        </h3>
+        <hr>
+        <h3 style="color: #ae00ff">今日作业</h3><br><br>
+        <h3>
+            查询goods表中价格该与30的商品  名称类型 <br>
+            select name,type form goods wherer price >30; <br>
+            <br>
+            <br>
+            查询goods表中数量大于20的商品，并根据id值的降序排序显示<br>
+            select * from goods where num>20 order by id desc;<br>
+            <br>
+            <br>
+            查询goods表中所有记录行，限制从第三行显示，显示两行<br>
+            select * from goods where limit 3,2 ;<br>
+        </h3>
+        <div>
+            <a href="12.html">
+                <button>小案例</button>
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="14.html">
+                <button></button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
