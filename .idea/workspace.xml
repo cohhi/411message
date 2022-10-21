@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/11/10月17日.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/File/11/表格作业.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/13.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Web/work/10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,14 +216,9 @@
       <workItem from="1666058930674" duration="646000" />
       <workItem from="1666060870021" duration="60000" />
       <workItem from="1666150504095" duration="1731000" />
-      <workItem from="1666228524104" duration="899000" />
-    </task>
-    <task id="LOCAL-00048" summary="快照">
-      <created>1664108928083</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1664108928083</updated>
+      <workItem from="1666228524104" duration="1391000" />
+      <workItem from="1666319205123" duration="3939000" />
+      <workItem from="1666330650047" duration="3544000" />
     </task>
     <task id="LOCAL-00049" summary="ssh">
       <created>1664110583842</created>
@@ -564,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666156733345</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="update">
+      <created>1666229505787</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1666229505787</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
