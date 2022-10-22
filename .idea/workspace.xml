@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/test/work/7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/13.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/15.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/16.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/17.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/18.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/19.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/20.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,14 +229,8 @@
       <workItem from="1666150504095" duration="1731000" />
       <workItem from="1666228524104" duration="1391000" />
       <workItem from="1666319205123" duration="3939000" />
-      <workItem from="1666330650047" duration="3544000" />
-    </task>
-    <task id="LOCAL-00049" summary="ssh">
-      <created>1664110583842</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1664110583842</updated>
+      <workItem from="1666330650047" duration="3808000" />
+      <workItem from="1666413644775" duration="3151000" />
     </task>
     <task id="LOCAL-00050" summary="ssh">
       <created>1664110632435</created>
@@ -563,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666229505787</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="update">
+      <created>1666334667603</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1666334667603</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
