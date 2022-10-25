@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Python/20.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Python/20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +233,8 @@
       <workItem from="1666617143278" duration="50000" />
       <workItem from="1666617212025" duration="40000" />
       <workItem from="1666617299255" duration="326000" />
-      <workItem from="1666667356224" duration="926000" />
-    </task>
-    <task id="LOCAL-00054" summary="month9day27 for web">
-      <created>1664266128251</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1664266128252</updated>
+      <workItem from="1666667356224" duration="2079000" />
+      <workItem from="1666693137717" duration="1172000" />
     </task>
     <task id="LOCAL-00055" summary="主页设计的潮流一点">
       <created>1664326655225</created>
@@ -575,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666616178997</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="update">
+      <created>1666668336591</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1666668336592</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
