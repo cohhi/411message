@@ -2,13 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>小案例</title>
+    <title>10月25日,tb_worker</title>
     <link rel="stylesheet" href="default.css">
 </head>
 <body>
 <div id="center">
     <div class="background">
-
+        <p>数据库备份与恢复 (dump版)</p>
+        <h3>备份数据库:</h3>
+        <h3>mysqldump -hlocalhost -uroot -p 数据库名 数据表名 > 备份位置</h3>
+        <br>
+        <h3>数据表还原</h3>
+        <h3>mysql -hlocalhost -uroot -p 数据库名 < 数据表位置</h3>
+        <br>
+        <hr>
+        <p>今日作业</p>
+        <h3>创建tb_work数据表</h3>
+        <h3>create table tb_worker(</h3>
+        <h3>id INT(11)PRIMARY KEY AUTO_INCREMENT,</h3>
+        <h3>name VARCHAR(30)NOT NUll,</h3>
+        <h3>sex ENUM('w','m') DEFAULT 'm',</h3>
+        <h3>hobby SET('football','basketball','volleyball'),</h3>
+        <h3>score FLOAT(3,1) UNSIGNED,</h3>
+        <h3>moblie char(11) UNIQUE NOT NULL,</h3>
+        <h3>intro char(4) NULL,</h3>
+        <h3>entry_time DATE</h3>
+        <h3>)ENGINE=MyISAM,charset utf8;</h3>
+        <br>
+        <p>输入数据表</p>
+        <h3>insert into tb_worker</h3>
+        <h3>(id, name, sex, hobby, score, moblie,intro,entry_time)</h3>
+        <h3>values (1,'小赵','m','basketball',9.2,'138999111',null,'2009-5-8')</h3>
+        <h3>------------------------------------------我是分割线------------------------------------------</h3>
+        <br>
+        <h3>insert into tb_worker</h3>
+        <h3>values (2,'小钱','m','basketball,volleyball',9.1,'138999222',null,'2008-6-8')</h3>
+        <h3>------------------------------------------我是分割线------------------------------------------</h3>
+        <br>
+        <h3>insert into tb_worker</h3>
+        <h3>values (3,'小孙','w','football',9.1,'138999333',null,'2015-9-2'),</h3>
+        <h3>(4,'小李','m','basketball,football',9.2,'138999444',null,'2011-5-3'),</h3>
+        <h3>(5,'小周','w','volleyball',9.0,'138999555',null,'2017-1-9'),</h3>
+        <h3>(6,'小吴','m','football,volleyball',9.3,'138999666',null,'2014-7-7');</h3>
+        <h3>------------------------------------------我是分割线------------------------------------------</h3>
+        <br>
+        <hr>
+        <p>修改数据表</p>
+        <h3>修改name值为小吴的记录 将hobby改为football</h3>
+        <h3>update tb_worker SET hobby='football' where name='小吴';</h3>
+        <br>
+        <h3>将id值小于4的员工score+0.5</h3>
+        <h3>update tb_worker SET score=score+0.5 where id<4</h3>
+        <br>
+        <hr>
+        <p>执行以下语句删除sex值为 'w'的员工</p>
+        <h3>delete from tb_worker where sex='w';</h3>
     </div>
     <div>
         <a href="13.html">
@@ -24,7 +72,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">
+        <a href="15.html">
             <button></button>
         </a>
     </div>
