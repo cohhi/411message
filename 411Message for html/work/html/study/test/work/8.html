@@ -2,9 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>8</title>
+    <title>连接数据库</title>
+    <link rel="stylesheet" href="default.css">
 </head>
+<style>
+    a{
+        line-height: 60px;
+        font-size: 20px;
+    }
+    p{
+        color: #ae00ff;
+    }
+</style>
 <body>
-
+<div id="center">
+    <div class="background">
+        <h3>第一步,电脑要安装mysql,和<a href="picture/8/mysql-connector-java-5.1.0-bin.jar">jar包(mysql-connector-java-5.1.0-bin.jar)</a> </h3>
+        <h3>打开eclipse</h3>
+        <h3>目录长这样对吧</h3>
+        <img src="picture/8/1.png" alt="">
+        <h3>把jar包放到lib里面</h3>
+        <img src="picture/8/2.png" alt="">
+        <hr>
+        <h3>新建一个package,命名为Test</h3>
+        <img src="picture/8/3.png" alt="">
+        <br>
+        <img src="picture/8/4.png" alt="">
+        <h3>在package下新建一个Test1.java文件</h3>
+        <img src="picture/8/5.png" alt="">
+        <h3>把这些代码写进去</h3>
+        <a href="picture/8/Test1.java">Test1.java</a>
+        <h3>打开mysql新建一个students库 <br> create database students</h3>
+        <br>
+        <h3>选择students库 <br> user students</h3>
+        <br>
+        <h3>在students库中新建一个student表, <br>
+            create table student(
+            userName varchar(20),
+            password varchar(20)
+            };
+        </h3>
+        <br>
+        <h3>点击运行,选择javaApplication</h3>
+        <img src="picture/8/6.png" alt="">
+        <h3>Oh year~完美</h3>
+        <hr>
+        <p>向数据库插入数据</p>
+        <h3>在package下新建一个Test2.java文件</h3>
+        <h3>把这些代码写进去</h3>
+        <a href="picture/8/Test2.java">Test2.java</a>
+        <h3>点击执行</h3>
+        <img src="picture/8/7.png" alt="">
+        <h3>看一眼mysql</h3>
+        <img src="picture/8/8.png" alt="">
+        <h3>好,ikun写进去了</h3>
+        <hr>
+        <p>查询mysql数据</p>
+        <h3>在package下新建一个Test3.java文件</h3>
+        <h3>把这些代码写进去</h3>
+        <a href="picture/8/Test3.java">Test3.java</a>
+        <h3>点击执行</h3>
+        <img src="picture/8/9.png" alt="">
+        <h3>打印student表信息</h3>
+        <br> <br> <br>
+        <h3>---好累啊</h3>
+    </div>
+    <div>
+        <a href="7.html"><button>上一页,登录系统</button></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><button>下一页,</button></a>
+    </div>
+</div>
 </body>
 </html>
