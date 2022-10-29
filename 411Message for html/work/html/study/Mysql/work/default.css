@@ -67,7 +67,10 @@ button:after {
     }
 }
 
-button,
+button{
+    width: 80px;
+    height: 80px;
+}
 button::after {
     box-sizing: border-box;
 }
