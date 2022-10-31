@@ -1,5 +1,7 @@
 body{
-    background: #EFE5A7;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #EFE5A7;
 }
 button {
     --border-radius: 15px;
@@ -65,7 +67,10 @@ button:after {
     }
 }
 
-button,
+button{
+    width: 80px;
+    height: 80px;
+}
 button::after {
     box-sizing: border-box;
 }
@@ -79,14 +84,30 @@ button:active {
 p{
     text-align: center;
     font-size: 20px;
-    color: #303030;
+    color: #B93AF7;
 }
 h4{
 }
+#center{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    width: auto;
+    background-color: black;
+    color: #00ca4e;
+}
+#message{
+    text-align: center;
+    width: auto;
+    background-color: black;
+    color: #00ca4e;
+}
 div.background{
-    padding: 100px;
+    width: 900px;
     margin: auto;
     text-align: left;
+    border: 3px bisque;
 }
 div.background h3{
     font-size: 20px;
