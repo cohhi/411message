@@ -1,0 +1,39 @@
+<!--author:steam-404 for GitHub-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>author:steam-404</title>
+</head>
+<body>
+<script>
+    document.write("<p>个人信息</p>\n" +
+        "<h3>所在年级: 软件技术2131\n</h3>"+
+        "<h3>学号: 0302213127\n</h3>"+
+        "<h3>性别: 男\n</h3>"+
+        "<h3>爱好: 女</h3>")
+</script>
+<hr>
+<script>
+    document.write("<ul>网页主要由三部分组成" +
+        "<li>结构</li>" +
+        "<li>表现</li>" +
+        "<li>行为</li>" +
+        "</ul>")
+</script>
+<hr>
+<script>
+    let user=prompt("你的家乡在哪里")
+</script>zhu
+<hr>
+<script>
+    let user=prompt("你的家乡在哪里?","珠海")
+</script>
+<script>
+    alert("祝愿大家:\n" +
+        "学习进步\n" +
+        "更上一层楼")
+</script>
+</body>
+</html>

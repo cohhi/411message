@@ -103,7 +103,7 @@ h4{
     background-color: black;
     color: #00ca4e;
 }
-div.background{
+.background{
     width: 900px;
     margin: auto;
     text-align: left;
@@ -111,4 +111,7 @@ div.background{
 }
 div.background h3{
     font-size: 20px;
+}
+.background image{
+    text-align: center;
 }
