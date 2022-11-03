@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/1/work.txt" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/1/work.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Mysql/work/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Swift/work/6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Web/411Message for html/work/html/study/Web/work/File/10月24日&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Web/411Message for html/work/html/study/test/work/picture/8&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -79,18 +79,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Web\411Message for html\work\html\study\test\work\picture\8" />
       <recent name="D:\GitHub\Web\411Message for html\work\html\study\Web\work\File\10月24日" />
       <recent name="D:\GitHub\网站\411message\411Message for html" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\asd" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Penetration test for kali\work" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Web\411Message for html\work\html\study\JavaScript\file\1" />
       <recent name="D:\GitHub\Web\411message\411Message for html\work\html\study\Web\work\File\11" />
       <recent name="D:\GitHub\Web\411message\411Message for html\mp3" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月29日" />
       <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Web\work\File\9月27日" />
-      <recent name="D:\GitHub\网站\411message\411Message for html\work\html\study\Linux\picture\6" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript 调试.index.html">
@@ -234,56 +234,22 @@
       <workItem from="1666617212025" duration="40000" />
       <workItem from="1666617299255" duration="326000" />
       <workItem from="1666667356224" duration="2079000" />
-      <workItem from="1666693137717" duration="1172000" />
-    </task>
-    <task id="LOCAL-00055" summary="主页设计的潮流一点">
-      <created>1664326655225</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1664326655228</updated>
-    </task>
-    <task id="LOCAL-00056" summary="主页设计的潮流一点">
-      <created>1664364874843</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1664364874844</updated>
-    </task>
-    <task id="LOCAL-00057" summary="多语言版主页">
-      <created>1664364920717</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1664364920717</updated>
-    </task>
-    <task id="LOCAL-00058" summary="多语言版优化">
-      <created>1664367084589</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1664367084589</updated>
-    </task>
-    <task id="LOCAL-00059" summary="debug">
-      <created>1664539913308</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1664539913308</updated>
-    </task>
-    <task id="LOCAL-00060" summary="两节mysql教程">
-      <created>1664541432119</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1664541432119</updated>
-    </task>
-    <task id="LOCAL-00061" summary="优化主页,以适应低带宽">
-      <created>1664626714199</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1664626714200</updated>
+      <workItem from="1666693137717" duration="1664000" />
+      <workItem from="1666751562952" duration="1871000" />
+      <workItem from="1666787042004" duration="529000" />
+      <workItem from="1666840318055" duration="58000" />
+      <workItem from="1666940311575" duration="5000000" />
+      <workItem from="1666954742278" duration="256000" />
+      <workItem from="1666963020118" duration="544000" />
+      <workItem from="1667053255793" duration="1721000" />
+      <workItem from="1667097004437" duration="32000" />
+      <workItem from="1667178802178" duration="9524000" />
+      <workItem from="1667269297471" duration="1123000" />
+      <workItem from="1667271837105" duration="412000" />
+      <workItem from="1667311759298" duration="569000" />
+      <workItem from="1667377399014" duration="28000" />
+      <workItem from="1667381669267" duration="412000" />
+      <workItem from="1667450945498" duration="853000" />
     </task>
     <task id="LOCAL-00062" summary="javascript教程框架">
       <created>1664722729856</created>
@@ -579,7 +545,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666668336592</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="update">
+      <created>1666694786479</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1666694786481</updated>
+    </task>
+    <task id="LOCAL-00105" summary="update">
+      <created>1666753397484</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1666753397484</updated>
+    </task>
+    <task id="LOCAL-00106" summary="update">
+      <created>1666946613186</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1666946613189</updated>
+    </task>
+    <task id="LOCAL-00107" summary="update">
+      <created>1667054961824</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1667054961825</updated>
+    </task>
+    <task id="LOCAL-00108" summary="update">
+      <created>1667201715356</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1667201715357</updated>
+    </task>
+    <task id="LOCAL-00109" summary="update">
+      <created>1667211034315</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1667211034315</updated>
+    </task>
+    <task id="LOCAL-00110" summary="update">
+      <created>1667312092659</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1667312092660</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

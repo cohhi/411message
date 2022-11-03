@@ -1,0 +1,13 @@
+<!--author:steam-404-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example02</title>
+</head>
+<body>
+<script>
+    let message=prompt("请输入你最喜欢的城市","北京")
+</script>
+</body>
+</html>

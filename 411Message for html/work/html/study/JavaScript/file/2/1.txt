@@ -1,0 +1,16 @@
+<!--author:steam-404-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example01</title>
+</head>
+<body>
+<script>
+    document.write("<div style=\"border: 3px solid black\">\n" +
+        "    <p>JavaScript的世界真奇妙</p>\n" +
+        "    <h3>快和我一起来学习吧!</h3>\n" +
+        "</div>")
+</script>
+</body>
+</html>
