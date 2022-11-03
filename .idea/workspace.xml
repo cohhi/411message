@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42f33b2-542e-4f3d-b095-a6bb65115eb6" name="变更" comment="update">
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/2/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/1/work.txt" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/file/1/work.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/JavaScript/work/2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/411Message for html/work/html/study/Linux/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,14 +243,9 @@
       <workItem from="1667311759298" duration="569000" />
       <workItem from="1667377399014" duration="28000" />
       <workItem from="1667381669267" duration="412000" />
-      <workItem from="1667450945498" duration="853000" />
-    </task>
-    <task id="LOCAL-00062" summary="javascript教程框架">
-      <created>1664722729856</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1664722729856</updated>
+      <workItem from="1667450945498" duration="1199000" />
+      <workItem from="1667465725999" duration="572000" />
+      <workItem from="1667485429247" duration="179000" />
     </task>
     <task id="LOCAL-00063" summary="首页稍微修改一点">
       <created>1664803509021</created>
@@ -594,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667312092660</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="update">
+      <created>1667451833202</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1667451833203</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
