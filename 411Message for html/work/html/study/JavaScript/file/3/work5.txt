@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work5</title>
+</head>
+<!--author:steam-404-->
+<body>
+<script>
+    var message1="ikun"
+    var message2
+
+    alert("赋值的布尔值："+Boolean(message1))
+    alert("未赋值的布尔值："+Boolean(message2))
+</script>
+</body>
+</html>

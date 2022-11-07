@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work2</title>
+</head>
+<body>
+<!--author:steam-404 for GitHub-->
+<p>四则运算</p>
+<script>
+    let message1 = prompt("请输入第一个数字")
+    let operation = prompt("请输入运算符")
+    let message2 = prompt("请输入第二个数字")
+    let result;
+    //注意类型
+    if (operation === "+") {
+        result=parseInt(message1)+parseInt(message2)
+        document.write(message1+"+"+message2+"="+result)
+    } else if (operation === "-") {
+        result=message1-message2
+        document.write(message1+"-"+message2+"="+result)
+    } else if (operation === "*") {
+        result=message1*message2
+        document.write(message1+"*"+message2+"="+result)
+    } else if (operation === "/") {
+        result=message1/message2
+        document.write(message1+"/"+message2+"="+result)
+    } else {
+        alert("运算符不存在")
+    }
+
+</script>
+</body>
+</html>

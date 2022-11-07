@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work4</title>
+</head>
+<body>
+<!--author:steam-404 for GitHUb-->
+<!--比较两个数弹出最大值-->
+<script>
+  let message1 = prompt("请输入第一个数")
+  let message2 = prompt("请输入第二个数")
+  let result=0
+  if (message1>message2){
+      result=message1
+  }else {
+      result=message2
+  }
+  document.write("两个数中最大的数:"+result)
+</script>
+</body>
+</html>

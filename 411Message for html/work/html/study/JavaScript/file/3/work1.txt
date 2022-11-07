@@ -1,0 +1,16 @@
+<!--author:steam-404 for GitHub-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work1</title>
+</head>
+<body>
+<script>
+    let message1=prompt("请输入第一个数字")
+    let message2=prompt("请输入第二个数字")
+    alert(message1+"+"+message2+"="+(parseInt(message1)+parseInt(message2)))
+//    parseInt强制转换类型为int
+</script>
+</body>
+</html>

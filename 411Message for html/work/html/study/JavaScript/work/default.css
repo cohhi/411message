@@ -115,3 +115,12 @@ div.background h3{
 .background image{
     text-align: center;
 }
+img{
+    width: 500px;
+    height: 1000px;
+}
+a{
+    color: #B93AF7;
+    font-size: 20px;
+    text-decoration: none;
+}
