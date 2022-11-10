@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>课表</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        div{
+            text-align: center;
+            width: 100%;
+            background-image: linear-gradient(160deg, #00ffd5 20%,#008cff 80%);
+        }
+        .bodyer{
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        tr{
+            width: 100%;
+            text-align: center;
+        }
+        td{
+            width: 80px;
+            height: 30px;
+            
+            border: 2px solid blue;
+        }
+        td.null{
+           background-color: aqua;
+        }
+    </style>
+    <body>
+        <div>
+            <div class="bodyer">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><p>一</p></td>
+                        <td><p>二</p></td>
+                        <td><p>三</p></td>
+                        <td><p>四</p></td>
+                        <td><p>五</p></td>
+                        <td><p>六</p></td>
+                        <td><p>日</p></td>
+                    </tr>
+                    <tr>
+                        <td>1-2节</td>
+                        <td>Web前端开发</td>
+                        <td>数据库技术</td>
+                        <td>数据库技术</td>
+                        <td>swift程序设计</td>
+                        <td>软件测试与工具测试</td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                    </tr>
+                    <tr>
+                        <td>3-4节</td>
+                        <td>沟通礼仪与团队合作</td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                        <td>Web前端开发</td>
+                        <td>软件测试与工具测试</td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                    </tr>
+                    <tr>
+                        <td>5-6节</td>
+                        <td class="null"></td>
+                        <td>swift程序设计</td>
+                        <td class="null"></td>
+                        <td>swift程序设计</td>
+                        <td>软件测试与工具测试</td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                    </tr>
+                    <tr>
+                        <td>6-7节</td>
+                        <td class="null"></td>
+                        <td>乒乓球🏓️</td>
+                        <td>Web前端开发</td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                        <td class="null"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="end">
+            <p>test</p>
+        </div>
+    </body>
+</html>
