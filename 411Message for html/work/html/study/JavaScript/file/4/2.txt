@@ -1,0 +1,18 @@
+<script>
+    <!--    author:steam-404-->
+    let message = prompt("请输入水果:")
+    switch (message) {
+        case "苹果":
+            alert("5元");
+            break
+        case "香蕉":
+            alert("4元");
+            break
+        case "榴莲":
+            alert("30元");
+            break
+        default:{
+            alert("暂无该水果")
+        }
+    }
+</script>

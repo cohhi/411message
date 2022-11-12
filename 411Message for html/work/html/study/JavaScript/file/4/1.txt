@@ -1,0 +1,14 @@
+<script>
+    let message=prompt("请输入水果:")
+    if (message === "ikun"){
+        alert("鸡你太美")
+    }else if(message === "苹果"){
+        alert("每斤5元")
+    }else if(message === "香蕉") {
+        alert("每斤4元")
+    }else if(message === "榴莲") {
+        alert("每斤30元")
+    }else{
+        alert("没有该水果")
+    }
+</script>

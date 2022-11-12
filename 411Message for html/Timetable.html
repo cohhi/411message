@@ -1,9 +1,16 @@
 <!Doctype html>
-<html>
+<html lang="zh">
     <head>
         <title>课表</title>
         <meta charset="utf-8">
         <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script>
+            $(function (){
+                $("#ikun").onclick(function (){
+                    alert("鸡你太美")
+                })
+            })
+        </script>
     </head>
     <style>
         div{
@@ -13,8 +20,16 @@
         }
         .bodyer{
             width: 100%;
-            height: auto;
+            height: 100vh;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        table{
+            width: 100%;
+            height: 100vh;
         }
         tr{
             width: 100%;
@@ -27,15 +42,15 @@
             border: 2px solid blue;
         }
         td.null{
-           background-color: aqua;
+           /*background-color: aqua;*/
         }
     </style>
     <body>
         <div>
             <div class="bodyer">
                 <table>
-                    <tr>
-                        <td></td>
+                    <tr style="background: pink">
+                        <td><button style="background: #0CD0E0; border: 2px solid #0CD0E0">ikun</button></td>
                         <td><p>一</p></td>
                         <td><p>二</p></td>
                         <td><p>三</p></td>
@@ -44,7 +59,7 @@
                         <td><p>六</p></td>
                         <td><p>日</p></td>
                     </tr>
-                    <tr>
+                    <tr style="background: #f2fddb">
                         <td>1-2节</td>
                         <td>Web前端开发</td>
                         <td>数据库技术</td>
@@ -54,7 +69,7 @@
                         <td class="null"></td>
                         <td class="null"></td>
                     </tr>
-                    <tr>
+                    <tr style="background: #488cfb">
                         <td>3-4节</td>
                         <td>沟通礼仪与团队合作</td>
                         <td class="null"></td>
@@ -64,7 +79,7 @@
                         <td class="null"></td>
                         <td class="null"></td>
                     </tr>
-                    <tr>
+                    <tr style="background: #9bdf70">
                         <td>5-6节</td>
                         <td class="null"></td>
                         <td>swift程序设计</td>
@@ -74,10 +89,10 @@
                         <td class="null"></td>
                         <td class="null"></td>
                     </tr>
-                    <tr>
+                    <tr style="background: #BBC1EE">
                         <td>6-7节</td>
                         <td class="null"></td>
-                        <td>乒乓球🏓️</td>
+                        <td>体育</td>
                         <td>Web前端开发</td>
                         <td class="null"></td>
                         <td class="null"></td>
@@ -86,9 +101,9 @@
                     </tr>
                 </table>
             </div>
-        </div>
-        <div class="end">
-            <p>test</p>
-        </div>
+        </div>s
+    <script>
+
+    </script>
     </body>
 </html>
