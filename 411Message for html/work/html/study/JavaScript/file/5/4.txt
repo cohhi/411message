@@ -1,0 +1,19 @@
+<!--author:steam-404-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example04</title>
+</head>
+<body>
+<script>
+  let message=[2,3,6,4,3,6,8,10];
+  //定义数组
+
+  for (let i=0;i<message.length;i++){
+    document.writeln(i+"<br>")
+  }
+  //便利数组
+</script>
+</body>
+</html>

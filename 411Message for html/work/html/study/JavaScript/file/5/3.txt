@@ -1,0 +1,15 @@
+<!--author:steam-404-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example03</title>
+</head>
+<body>
+<script>
+    for (let i=10;i>0;i--){
+        document.writeln(i+"<br>")
+    }
+</script>
+</body>
+</html>

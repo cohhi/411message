@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example01</title>
+</head>
+<body>
+<script>
+    let i=10;
+    while(i!==0){
+        document.write(i+"<br>")
+        i--;
+    }
+</script>
+</body>
+</html>
